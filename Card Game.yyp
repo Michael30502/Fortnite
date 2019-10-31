@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "ce4c63c6-3492-4ec3-944b-a0286106c7f3",
+            "Value": {
+                "id": "f8c51751-6e7a-41ac-a156-f29724bdb3e0",
+                "resourcePath": "objects\\gameMaster\\gameMaster.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d31f96be-c0d4-40f0-8f20-bb9db67077bb",
             "Value": {
                 "id": "a855e716-9995-44b1-b437-27c742192126",
