@@ -1,0 +1,1 @@
+var cardType = 22;
