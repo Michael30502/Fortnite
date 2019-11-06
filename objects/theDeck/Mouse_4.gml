@@ -20,3 +20,6 @@ cardPicked= 0;
 drawAllowed -= 1;
 handUpdated = true;
 }
+
+if (mulliganPhase == true) and (drawAllowed == 0)
+mulligan = false;

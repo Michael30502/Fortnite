@@ -11,6 +11,8 @@ globalvar mulliganPhase;
 globalvar drawAllowed;
 globalvar playerTurn;
 globalvar numCardSelected;
+globalvar mulligan;
+mulligan = true;
 counter=1;
 numCardSelected = 0;
 draw= false;

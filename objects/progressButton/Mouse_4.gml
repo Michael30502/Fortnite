@@ -2,10 +2,11 @@
 // You can write your code in this editor
 //if mulliganPhase
 if collision_point(mouse_x,mouse_y,progressButton,true,false){
-if (startUpPhase)
+
+if (startUpPhase and mulliganPhase ==false){
 image_index = 5
 playerTurn = false;
-
+}
 
 
 //if (mulliganPhase)

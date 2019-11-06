@@ -8,3 +8,4 @@ card2Selected = false;
 card3Selected = false;
 card4Selected = false;
 card5Selected = false;
+cardPoint = 5;
