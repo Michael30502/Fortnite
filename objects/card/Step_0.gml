@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(mulliganPhase)
+if(mulliganPhase) and(mulliganSecondPhase == false)
 if (id == gameMaster.cardPoint){
 draw=true;
 if mouse_check_button_pressed(mb_left){
@@ -19,8 +19,12 @@ numCardSelected -=1;
 }
 
 if(selected)and (mulligan == false){
-instance_destroy(id);
-drawAllowed = numCardSelected;
-mulligan = true;
+
 numCardSelected = 0;
+selected = false;
+playerHandCount -= 1;
+drawAllowed +=1;
+mulliganSecondPhase = true;
+
+instance_destroy(id);
 }

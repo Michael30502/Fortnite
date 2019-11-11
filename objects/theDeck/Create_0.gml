@@ -12,6 +12,9 @@ globalvar drawAllowed;
 globalvar playerTurn;
 globalvar numCardSelected;
 globalvar mulligan;
+globalvar mulliganSecondPhase;
+globalvar playerHandCount;
+mulliganSecondPhase = false;
 mulligan = true;
 counter=1;
 numCardSelected = 0;
@@ -34,7 +37,7 @@ actionPhase = false;
 discardPhase= false;
 mulliganPhase = false;
 lastCardDrawn = -1;
-
+playerHandUpdate = false;
 while(aNumber<=51){
 aDeck[aNumber] = cardNumber;
 aNumber +=1;

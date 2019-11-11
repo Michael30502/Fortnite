@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 //Checks if the player is allowed to draw
-if(drawAllowed>0)
+if(drawAllowed>0){
 
 //checks if you are pointing on the deck
 if collision_point(mouse_x,mouse_y,theDeck,false,false){
@@ -19,7 +19,7 @@ cardPicked= 0;
 
 drawAllowed -= 1;
 handUpdated = true;
-}
+}}
 
 if (mulliganPhase == true) and (drawAllowed == 0)
 mulligan = false;
