@@ -21,6 +21,7 @@ numCardSelected = 0;
 draw= false;
 aDeck = array_create(52);
 playerHand = array_create(52);
+discardPile = array_create(52);
 handUpdated = true;
 playerHandCount = 0;
 cardPicked= 0;

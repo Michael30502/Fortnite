@@ -25,6 +25,6 @@ selected = false;
 playerHandCount -= 1;
 drawAllowed +=1;
 mulliganSecondPhase = true;
-
+theDeck.playerHandUpdate = true;
 instance_destroy(id);
 }
