@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Skal styre spillet gang, gør ikke noget lige nu
 // You can write your code in this editor
 if(drawPhase)
 drawAllowed= 1;

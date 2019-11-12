@@ -66,7 +66,7 @@
             "Key": "1def9481-4e04-461d-980c-9f44eea60d31",
             "Value": {
                 "id": "c959b06e-bf2e-4fa6-8e7c-4c6ff5791849",
-                "resourcePath": "sprites\\sprite4\\sprite4.yy",
+                "resourcePath": "sprites\\borderSprite\\borderSprite.yy",
                 "resourceType": "GMSprite"
             }
         },

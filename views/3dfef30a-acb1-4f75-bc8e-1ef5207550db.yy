@@ -11,7 +11,7 @@
         "6176e74c-8797-4d84-890d-da369e351dc5"
     ],
     "filterType": "GMSprite",
-    "folderName": "Shittygifs",
+    "folderName": "gifs",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

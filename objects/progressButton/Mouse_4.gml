@@ -3,14 +3,17 @@
 //if mulliganPhase
 if collision_point(mouse_x,mouse_y,progressButton,true,false){
 
-if (startUpPhase and mulliganPhase ==false){
+if (startUpPhase and mulliganPhase ==false and drawAllowed == 0){
 image_index = 5
 playerTurn = false;
 }
 
+if(theDeck.mulliganUsed == true) and(mulliganPhase){
+image_index =4
+mulliganPhase = false;
+}
 
-//if (mulliganPhase)
-//sprite_index = 1
+
 
 if drawPhase image_index = 2;
 if buildingPhase image_index = 3;
