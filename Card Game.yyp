@@ -295,6 +295,14 @@
             }
         },
         {
+            "Key": "e13066fc-4b93-4be3-b86e-08288d1efcdc",
+            "Value": {
+                "id": "cff7d282-b6f3-472a-9a64-d57d377768ce",
+                "resourcePath": "sprites\\epicBorderSprite\\epicBorderSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f17b4103-5c93-4a28-8647-97a4946b5001",
             "Value": {
                 "id": "74bb3733-d119-4129-9ad0-97303c9ca835",
