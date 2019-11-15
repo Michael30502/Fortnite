@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "364fa06f-9688-46a7-b63f-2d7f209a1495",
+            "Value": {
+                "id": "8f86f924-7d80-4f20-a791-8c6bb1e951c5",
+                "resourcePath": "sprites\\borderSpriteBlue\\borderSpriteBlue.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "36d00ade-8019-4ab4-afb3-61d1a2ad585d",
             "Value": {
                 "id": "7b5c8787-86ec-4e21-888b-a6b024338859",
@@ -147,6 +155,14 @@
             "Value": {
                 "id": "ef4c7d3b-ecd0-4c4e-abd3-1c7128083b3a",
                 "resourcePath": "sprites\\sprite7\\sprite7.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7fcd0143-783d-4e00-b17a-4f0673d26b06",
+            "Value": {
+                "id": "a39743c7-0aed-4a37-b684-972804f9671c",
+                "resourcePath": "sprites\\epicBorderSpriteBlue\\epicBorderSpriteBlue.yy",
                 "resourceType": "GMSprite"
             }
         },

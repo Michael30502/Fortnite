@@ -8,6 +8,13 @@ draw_sprite(borderSprite,0,x,y);
 if (selected ==true && thisCard != 1){
 draw_sprite(epicBorderSprite,0,x,y);
 }
+
+if (id == gameMaster.cardPoint) and (selected == false) and (thisCard == 1)
+draw_sprite(borderSpriteBlue,0,x,y);
+if (id == gameMaster.cardPoint) and (selected == false) and (thisCard != 1)
+draw_sprite(epicBorderSpriteBlue,0,x,y);
+
+
 //Test
 draw_text(x-50,y-280,cardValue)
 
