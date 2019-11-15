@@ -17,6 +17,8 @@ globalvar playerHandCount;
 globalvar drawAllowed;
 globalvar playerTurn;
 globalvar numCardSelected;
+globalvar drawUsed;
+
 
 //Er du igang med at mulligan, eller igang med at trække kort efter mulligan
 mulliganSecondPhase = false;
@@ -61,6 +63,9 @@ mulliganPhase = false;
 //Angiver hvad det sidste kort der blev trukket var
 lastCardDrawn = -1;
 
+start = true;
+
+drawUsed = false;
 
 //Fylder decket med kort
 aNumber = 0;

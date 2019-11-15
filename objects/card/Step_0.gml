@@ -33,3 +33,5 @@ i+=1;
 theDeck.playerHandUpdate = true;
 instance_destroy(id);
 }
+
+//Kort funktioner 
