@@ -20,6 +20,8 @@ rare = false;
 epic = false;
 legendary = false;
 
+selectable = false;
+
 thisCard =theDeck.counter;
 selected = false;
 draw= false;

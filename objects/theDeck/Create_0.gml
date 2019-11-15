@@ -60,6 +60,7 @@ buildingPhase = false;
 actionPhase = false;
 discardPhase= false;
 mulliganPhase = false;
+mulliganUnused = false;
 //Angiver hvad det sidste kort der blev trukket var
 lastCardDrawn = -1;
 

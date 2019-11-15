@@ -2,7 +2,9 @@
 // You can write your code in this editor
 
 //Markere kortne og tæller hvor mange der er markeret 
-if(mulliganPhase){
+
+/*
+if(selectable){
 if 	((collision_point(mouse_x,mouse_y,card,false,false)).selected == false){
 (collision_point(mouse_x,mouse_y,card,false,false)).selected = true
 numCardSelected -=1
@@ -13,3 +15,4 @@ else
 numCardSelected +=1
 }
 }
+*/

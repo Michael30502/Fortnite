@@ -1,10 +1,14 @@
 /// @description Alle kortens funktioner kommer til at være her ( ͡° ͜ʖ ͡°)
 // You can write your code in this editor
 //Markere kort som valgt hvis det bliver trykket på
-if(mulliganPhase) and(mulliganSecondPhase == false)
+if (mulliganPhase) and(mulliganSecondPhase == false)
+selectable = true
+
+
+if(selectable)
 if (id == gameMaster.cardPoint){
 if mouse_check_button_pressed(mb_left){
-if(selected==false )
+if(selected==false)
 {	
 selected = true;
 numCardSelected+=1
@@ -16,9 +20,9 @@ numCardSelected -=1;
 }}}
 
 //Game ender kortet når mulligan bliver aktiveret 
-if(selected)and (mulligan == false){
-
-numCardSelected -= 1;
+if(selected)and (mulligan == false) and mulliganPhase{
+mulligan = false;
+numCardSelected -= 0;
 selected = false;
 playerHandCount -= 1;
 drawAllowed +=1;
@@ -34,8 +38,7 @@ theDeck.playerHandUpdate = true;
 instance_destroy(id);
 }
 
-//Kort funktioner 
-
+//Kort klasifiktaioner 
 switch round((cardValue+1)/4+0.25) 
 {
 case 1 : chest = true; break;
@@ -59,7 +62,13 @@ case 3:rare = true; break;
 case 2:epic=true; break;
 case 1:legendary =true; break;
 case 0:uncommon = true; break;
-
-
-
 }
+
+//Kort funktioner 
+
+if (drawPhase) and ((chest) or (pistol)or(assaultRifle)or(sniper))
+selectable = true;
+
+if (buildingPhase) and ((stairs) or (wall) or (roof))
+selectable = true;
+

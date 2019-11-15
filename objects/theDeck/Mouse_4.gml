@@ -29,9 +29,12 @@ handUpdated = true;
 
 //Mulliganer valgte kort og gør mulligan umuligt
 if collision_point(mouse_x,mouse_y,theDeck,false,false)
-if (mulliganPhase == true) and (drawAllowed == 0)and mulliganUsed == false{
+if (mulliganPhase == true) and (drawAllowed == 0)and (mulliganUsed == false or mulliganUnused){
 mulligan = false;
 mulliganUsed = true;
-if(numCardSelected == 0)
+mulliganUnused = false;
+if(numCardSelected == 0){
 mulligan = true;
+mulliganUnused = true;
+}
 }
