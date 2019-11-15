@@ -35,3 +35,31 @@ instance_destroy(id);
 }
 
 //Kort funktioner 
+
+switch round((cardValue+1)/4+0.25) 
+{
+case 1 : chest = true; break;
+case 2: trap =true;break;
+case 3: grenade = true;break;
+case 4: healing = true;break;
+case 5:  stairs= true;break;
+case 6: wall = true; break;
+case 7: roof = true; break;
+case 8: sBullet = true; break;
+case 9: mBullet = true; break;
+case 10:hBullet = true; break;
+case 11:pistol = true; break;
+case 12:assaultRifle = true; break;
+case 13: sniper = true; break;
+}
+
+switch ((cardValue+1) mod 4)
+{
+case 3:rare = true; break;
+case 2:epic=true; break;
+case 1:legendary =true; break;
+case 0:uncommon = true; break;
+
+
+
+}
