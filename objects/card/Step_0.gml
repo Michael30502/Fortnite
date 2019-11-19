@@ -5,22 +5,9 @@ if (mulliganPhase) and(mulliganSecondPhase == false)
 selectable = true
 
 
-if(selectable)
-if (id == gameMaster.cardPoint){
-if mouse_check_button_pressed(mb_left){
-if(selected==false)
-{	
-selected = true;
-numCardSelected+=1
-}
-else
-{
-selected = false;
-numCardSelected -=1;
-}}}
 
 //Game ender kortet når mulligan bliver aktiveret 
-if(selected)and (mulligan == false) and mulliganPhase{
+if((selected)and (mulligan == false) and (mulliganPhase)){
 mulligan = false;
 numCardSelected -= 0;
 selected = false;
@@ -37,6 +24,7 @@ i+=1;
 theDeck.playerHandUpdate = true;
 instance_destroy(id);
 }
+
 
 //Kort klasifiktaioner 
 switch round((cardValue+1)/4+0.25) 
@@ -66,9 +54,22 @@ case 0:uncommon = true; break;
 
 //Kort funktioner 
 
+
 if (drawPhase) and ((chest) or (pistol)or(assaultRifle)or(sniper))
 selectable = true;
 
 if (buildingPhase) and ((stairs) or (wall) or (roof))
 selectable = true;
 
+
+if ((id == gameMaster.cardPoint)and (mouse_check_button_pressed(mb_left)) and ((selectable))){
+if(selected==false)
+{	
+selected = true;
+numCardSelected+=1
+}
+else
+{
+selected = false;
+numCardSelected -=1;
+}}

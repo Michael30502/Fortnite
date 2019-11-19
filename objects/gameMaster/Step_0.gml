@@ -6,6 +6,6 @@ drawAllowed += 1;
 drawUsed = true;
 }
 
-cardPoint = collision_point(mouse_x,mouse_y,card,false,false)
 
+cardPoint = collision_point(mouse_x,mouse_y,card,false,false);
 

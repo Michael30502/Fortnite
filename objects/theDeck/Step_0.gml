@@ -24,4 +24,5 @@ break;
 i+=1
 }
 handUpdated = true;
+playerHandUpdate = false;
 }

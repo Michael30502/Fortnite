@@ -25,7 +25,6 @@ selectable = false;
 thisCard =theDeck.counter;
 selected = false;
 draw= false;
-selected = false;
 cardValue = theDeck.playerHand[thisCard-1]
 
 

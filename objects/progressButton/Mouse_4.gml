@@ -2,11 +2,8 @@
 // You can write your code in this editor
 //if mulliganPhase
 if collision_point(mouse_x,mouse_y,progressButton,true,false){
-selectable = false;
-if(object_exists(card)){
-card.selected = false;
 numCardSelected = 0;
-}
+
 
 if (startUpPhase and mulliganPhase ==false and drawAllowed == 0){
 image_index = 5
