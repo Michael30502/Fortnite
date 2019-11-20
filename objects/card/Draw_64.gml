@@ -27,52 +27,52 @@ draw_text(progressButton.x-280,progressButton.y,"Cards selected:"+string(numCard
 
 
 if(chest)
-draw_text(x-50,y-350,"ACE")
+draw_text(x-50,y-250,"ACE")
 
 if(trap)
-draw_text(x-50,y-350,"Trap")
+draw_text(x-50,y-250,"Trap")
 
 if(grenade)
-draw_text(x-50,y-350,"Grenade")
+draw_text(x-50,y-250,"Grenade")
 
 if(healing)
-draw_text(x-50,y-350,"Healing")
+draw_text(x-50,y-250,"Healing")
 
 if(stairs)
-draw_text(x-50,y-350,"Stairs")
+draw_text(x-50,y-250,"Stairs")
 
 if(wall)
-draw_text(x-50,y-350,"Wall")
+draw_text(x-50,y-250,"Wall")
 
 if(roof)
-draw_text(x-50,y-350,"Roof")
+draw_text(x-50,y-250,"Roof")
 
 if(sBullet)
-draw_text(x-50,y-350,"Small bullet")
+draw_text(x-50,y-250,"Small bullet")
 
 if(mBullet)
-draw_text(x-50,y-350,"Medium bullet")
+draw_text(x-50,y-250,"Medium bullet")
 
 if(hBullet)
-draw_text(x-50,y-350,"Heavy bullet")
+draw_text(x-50,y-250,"Heavy bullet")
 
 if(pistol)
-draw_text(x-50,y-350,"Pistol")
+draw_text(x-50,y-250,"Pistol")
 
 if(assaultRifle)
-draw_text(x-50,y-350,"Assault Rifle")
+draw_text(x-50,y-250,"Assault Rifle")
 
 if(sniper)
-draw_text(x-50,y-350,"Sniper")
+draw_text(x-50,y-250,"Sniper")
 
 if(uncommon)
-draw_text(x-50,y-380,"Uncommon")
+draw_text(x-50,y-280,"Uncommon")
 
 if(rare)
-draw_text(x-50,y-380,"Rare")
+draw_text(x-50,y-280,"Rare")
 
 if(epic)
-draw_text(x-50,y-380,"Epic")
+draw_text(x-50,y-280,"Epic")
 
 if(legendary)
-draw_text(x-50,y-380,"Legendary")
+draw_text(x-50,y-280,"Legendary")

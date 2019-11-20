@@ -3,3 +3,6 @@
 
 //Ændre til det 6. af spritens billeder 
 image_index= 6
+
+globalvar progressButtonPressed;
+progressButtonPressed = false;

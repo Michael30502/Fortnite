@@ -1,6 +1,14 @@
 /// @description Alle kortens funktioner kommer til at være her ( ͡° ͜ʖ ͡°)
 // You can write your code in this editor
 //Markere kort som valgt hvis det bliver trykket på
+if(progressButtonPressed == true)
+{
+card.selected = false;
+card.selectable = false;
+numCardSelected = 0 ;
+progressButtonPressed = false;
+}
+
 if (mulliganPhase) and(mulliganSecondPhase == false)
 selectable = true
 
@@ -9,39 +17,61 @@ selectable = true
 //Game ender kortet når mulligan bliver aktiveret 
 if((selected)and (mulligan == false) and (mulliganPhase)){
 mulligan = false;
-numCardSelected -= 0;
-selected = false;
-playerHandCount -= 1;
-drawAllowed +=1;
 mulliganSecondPhase = true;
 
-i= 0;
-while (i<52){
-if theDeck.playerHand[i] == cardValue
-theDeck.playerHand[i] = -1;
-i+=1;
+numCardSelected -= 0;
+playerHandCount -= 1;
+drawAllowed +=1
+
+selected = false;
+deleteCard();
+
 }
-theDeck.playerHandUpdate = true;
-instance_destroy(id);
+
+if(drawCard and selected){
+	
+
+numCardSelected -= 1;
+if(numCardSelected == 0)
+drawCard = false;
+else 
+drawCard = true;
+
+playerHandCount -= 1;
+
+selected = false;
+if(chest)
+{
+switch(chest){
+case uncommon: drawAllowed +=1; break;
+case rare: drawAllowed +=2; break;
+case epic: drawAllowed +=3; break;
+case legendary: drawAllowed +=4; break;
+}
+}
+else
+drawAllowed +=1;
+
+deleteCard();
 }
 
 
 //Kort klasifiktaioner 
-switch round((cardValue+1)/4+0.25) 
+switch round((cardValue)div 4) 
 {
-case 1 : chest = true; break;
-case 2: trap =true;break;
-case 3: grenade = true;break;
-case 4: healing = true;break;
-case 5:  stairs= true;break;
-case 6: wall = true; break;
-case 7: roof = true; break;
-case 8: sBullet = true; break;
-case 9: mBullet = true; break;
-case 10:hBullet = true; break;
-case 11:pistol = true; break;
-case 12:assaultRifle = true; break;
-case 13: sniper = true; break;
+case 0 : chest = true; break;
+case 1: trap =true;break;
+case 2: grenade = true;break;
+case 3: healing = true;break;
+case 4:  stairs= true;break;
+case 5: wall = true; break;
+case 6: roof = true; break;
+case 7: sBullet = true; break;
+case 8: mBullet = true; break;
+case 9:hBullet = true; break;
+case 10:pistol = true; break;
+case 11:assaultRifle = true; break;
+case 12: sniper = true; break;
 }
 
 switch ((cardValue+1) mod 4)

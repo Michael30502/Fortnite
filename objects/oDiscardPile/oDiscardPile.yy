@@ -4,7 +4,36 @@
     "mvc": "1.0",
     "name": "oDiscardPile",
     "eventList": [
-        
+        {
+            "id": "2642b9d6-801c-4ab2-b8ef-6bed2418624d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 4,
+            "eventtype": 6,
+            "m_owner": "26b69369-a5a3-48b1-a6b7-87c24d786f9d"
+        },
+        {
+            "id": "eb78a1c9-4bb8-4ade-a708-97427290878e",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "26b69369-a5a3-48b1-a6b7-87c24d786f9d"
+        },
+        {
+            "id": "6bce3a36-031c-49e9-babe-7c4135645ae1",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "26b69369-a5a3-48b1-a6b7-87c24d786f9d"
+        }
     ],
     "maskSpriteId": "06ee58fe-26c4-4faa-925b-4973e9a442b3",
     "overriddenProperties": null,

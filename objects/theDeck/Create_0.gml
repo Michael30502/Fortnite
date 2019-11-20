@@ -5,6 +5,7 @@ randomise();
 //Fuldskærm
 window_set_fullscreen(true);
 //Opsætter globale variabler
+globalvar discardPileUpdated;
 globalvar startUpPhase;
 globalvar drawPhase;
 globalvar buildingPhase;
@@ -19,6 +20,8 @@ globalvar playerTurn;
 globalvar numCardSelected;
 globalvar drawUsed;
 
+
+discardPileUpdated=false;
 
 //Er du igang med at mulligan, eller igang med at trække kort efter mulligan
 mulliganSecondPhase = false;
