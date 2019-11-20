@@ -2,7 +2,7 @@
     "id": "b33ae80e-84bd-4fe5-a5e2-0c5f358ff926",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "menu",
+    "name": "menuSprite",
     "For3D": false,
     "HTile": false,
     "VTile": false,

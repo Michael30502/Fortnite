@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "61e2e42a-c8f5-4361-ac07-d0b2cc1f5c8d",
+            "Value": {
+                "id": "6ac01f51-4ddc-4f41-8052-1b130f62c063",
+                "resourcePath": "fonts\\fMenu\\fMenu.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "6e733057-0188-4ea8-bfe3-10d128f806fe",
             "Value": {
                 "id": "e69886b4-17a7-4b8e-bd8c-841a2871e423",
@@ -282,7 +290,7 @@
             "Key": "b33ae80e-84bd-4fe5-a5e2-0c5f358ff926",
             "Value": {
                 "id": "ab4caa50-0e6f-4ec6-ac7d-ead9c24923b2",
-                "resourcePath": "sprites\\menu\\menu.yy",
+                "resourcePath": "sprites\\menuSprite\\menuSprite.yy",
                 "resourceType": "GMSprite"
             }
         },
