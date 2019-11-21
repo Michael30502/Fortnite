@@ -6,7 +6,6 @@ menu_x += (menu_x_target - menu_x) / menu_speed;
 //keyboard control
 
 if (menu_control)
-
 {
 	
 	if(keyboard_check_pressed(vk_up))
@@ -23,18 +22,19 @@ if (menu_control)
 		
 	
 	}
-	if (keyboard_check_pressed(vk_enter)&& menu_cursor = 1)
+	if (keyboard_check_pressed(vk_enter)&& menu_cursor == 1)
 	{
 		menu_x_target = gui_width+200;
 		menu_committed = menu_cursor;
 		menu_control = false;
 		menuControlS = true;
 	}
-	if (keyboard_check_pressed(vk_enter)&& menu_cursor = 2)
+	if (keyboard_check_pressed(vk_enter)&& menu_cursor == 2)
 	{
 		menu_x_target = gui_width+200;
 		menu_committed = menu_cursor;
 		menu_control = false;
+		
 		room_goto_next();
 	
 	}	
@@ -46,7 +46,7 @@ if (menu_control)
 
 //keyboard control
 
-if (menuControlS=true)
+if (menuControlS==true)
 {
 	menu_xS += (menu_x_targetS - menu_xS) / menu_speedS;
 	if(keyboard_check_pressed(vk_up))

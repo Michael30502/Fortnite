@@ -38,15 +38,24 @@ draw_text(x-50,y-250,"Grenade")
 if(healing)
 draw_text(x-50,y-250,"Healing")
 
-if(stairs)
+
+if(stairs){
 draw_text(x-50,y-250,"Stairs")
+if(buildingPhase and selected)
+buildingSpace1Available = true;
 
-if(wall)
+}
+
+if(wall){
 draw_text(x-50,y-250,"Wall")
-
-if(roof)
+if(buildingPhase and selected)
+buildingSpace1Available = true;
+}
+if(roof){
 draw_text(x-50,y-250,"Roof")
-
+if(buildingPhase and selected)
+buildingSpace1Available = true;
+}
 if(sBullet)
 draw_text(x-50,y-250,"Small bullet")
 

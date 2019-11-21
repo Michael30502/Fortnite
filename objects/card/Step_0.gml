@@ -92,11 +92,13 @@ if (buildingPhase) and ((stairs) or (wall) or (roof))
 selectable = true;
 
 
+
+
 if ((id == gameMaster.cardPoint)and (mouse_check_button_pressed(mb_left)) and ((selectable))){
-if(selected==false)
+if(selected==false) and(numCardSelected==0)
 {	
 selected = true;
-numCardSelected+=1
+numCardSelected+=1;
 }
 else
 {
