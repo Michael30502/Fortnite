@@ -40,22 +40,39 @@ draw_text(x-50,y-250,"Healing")
 
 
 if(stairs){
-draw_text(x-50,y-250,"Stairs")
-if(buildingPhase and selected)
-buildingSpace1Available = true;
+	if selected
 
+draw_text(x-50,y-250,"Stairs")
+if(buildingPhase and selected) {
+	builderCard = cardValue;
+buildingSpace1Available = true;
 }
+else if (numCardSelected == 0)
+buildingSpace1Available = false;
+}
+
 
 if(wall){
 draw_text(x-50,y-250,"Wall")
+builderCard = cardValue;
 if(buildingPhase and selected)
-buildingSpace1Available = true;
+buildingSpace2Available = true;
+else if (numCardSelected == 0)
+buildingSpace2Available = false;
 }
+
+
 if(roof){
+	builderCard = cardValue;
 draw_text(x-50,y-250,"Roof")
 if(buildingPhase and selected)
-buildingSpace1Available = true;
+buildingSpace3Available = true;
+else if numCardSelected == 0
+buildingSpace3Available = false;
 }
+
+
+
 if(sBullet)
 draw_text(x-50,y-250,"Small bullet")
 

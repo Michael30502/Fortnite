@@ -12,7 +12,9 @@ playerTurn = false;
 if(theDeck.mulliganUsed == true) and(mulliganPhase) and (drawAllowed == 0){
 image_index =3
 mulliganPhase = false;
-
+superAction = true;
+buildAction = true;
+action=true;
 if(theDeck.start == true)
 drawPhase = true;
 else

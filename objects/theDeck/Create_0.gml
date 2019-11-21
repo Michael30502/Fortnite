@@ -22,6 +22,12 @@ globalvar drawAllowed;
 globalvar playerTurn;
 globalvar numCardSelected;
 globalvar drawUsed;
+globalvar superAction;
+globalvar buildAction;
+globalvar action;
+action = true;
+buildAction = true;
+superAction =true;
 
 
 discardPileUpdated=false;

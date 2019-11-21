@@ -1,5 +1,16 @@
 /// @description Insert description here
 // You can write your code in this editor
+globalvar buildingSpace1Available
+globalvar buildingSpace2Available;
+globalvar buildingSpace3Available;
+globalvar buildActivate;
+
+buildActivate = false;
+buildingSpace1Available = false;
+ buildingSpace2Available = false;
+ buildingSpace3Available = false;
+
+
 
 buildSpace1 = false;
 buildSpace2 = false;

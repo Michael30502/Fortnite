@@ -359,6 +359,14 @@
             }
         },
         {
+            "Key": "c9e51cd6-7ec7-4804-b230-2b359e1cc097",
+            "Value": {
+                "id": "cdb47970-c208-4103-b0c6-4182b8fcb12e",
+                "resourcePath": "sprites\\sidewaysBorderBlue\\sidewaysBorderBlue.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "e392d726-a7e5-4874-81be-a0822cafff7a",

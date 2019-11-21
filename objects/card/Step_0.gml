@@ -19,7 +19,7 @@ if((selected)and (mulligan == false) and (mulliganPhase)){
 mulligan = false;
 mulliganSecondPhase = true;
 
-numCardSelected -= 0;
+numCardSelected -=1;
 playerHandCount -= 1;
 drawAllowed +=1
 
@@ -52,6 +52,16 @@ case legendary: drawAllowed +=4; break;
 else
 drawAllowed +=1;
 
+deleteCard();
+}
+
+if(buildingPhase and selected and buildActivate)
+{
+	numCardSelected -= 1;
+playerHandCount -= 1;
+
+superAction = false;
+selected = false;
 deleteCard();
 }
 
@@ -95,10 +105,17 @@ selectable = true;
 
 
 if ((id == gameMaster.cardPoint)and (mouse_check_button_pressed(mb_left)) and ((selectable))){
-if(selected==false) and(numCardSelected==0)
+if(selected==false)
 {	
+	if(buildingPhase == false)
+	{
 selected = true;
 numCardSelected+=1;
+	}
+	else if(numCardSelected ==0)
+	{selected = true;
+numCardSelected+=1;
+}
 }
 else
 {
