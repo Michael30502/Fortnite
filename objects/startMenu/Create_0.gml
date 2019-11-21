@@ -26,21 +26,21 @@ gui_widthS = display_get_gui_width();
 gui_heightS = display_get_gui_height();
 gui_marginS = 32;
 
-menu_xS = gui_widthS;
+menu_xS = gui_widthS+250;
 menu_yS = gui_heightS - gui_marginS;
-menu_x_targetS = gui_width-gui_marginS;
+menu_x_targetS = gui_widthS-gui_marginS;
 menu_speedS = 25; //lower is faster
 
 menu_itemheightS = font_get_size(fMenu);
 menu_committedS = -1;
 menuControlS = false;
-menuS[2] = "Front";
-menuS[1] = "Back";
-menuS[0] = "Avatar";
+menuS[2] = "Card skins";
+menuS[1] = "Avatars";
+menuS[0] = "Back";
 
 
 menu_itemsS = array_length_1d(menuS)
-menu_cursorS = 2;
+menu_cursorS = 3;
 
 
 
