@@ -9,7 +9,7 @@ menu_x = gui_width+200;
 menu_y = gui_height - gui_margin;
 menu_x_target = gui_width-gui_margin;
 menu_speed = 25; //lower is faster
-menu_font = fMenu;
+
 menu_itemheight = font_get_size(fMenu);
 menu_committed = -1;
 menu_control = true;
@@ -28,12 +28,12 @@ gui_marginS = 32;
 
 menu_xS = gui_widthS+200;
 menu_yS = gui_heightS - gui_marginS;
-menu_x_targetS = gui_width-gui_marginS+90;
-menu_speedS = 15; //lower is faster
-menu_fontS = fMenu;
+menu_x_targetS = gui_width-gui_marginS;
+menu_speedS = 25; //lower is faster
+
 menu_itemheightS = font_get_size(fMenu);
 menu_committedS = -1;
-menu_controlS = false;
+menuControlS = false;
 menuS[2] = "Front";
 menuS[1] = "Back";
 menuS[0] = "Avatar";
