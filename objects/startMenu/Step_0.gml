@@ -29,8 +29,15 @@ if (menu_control)
 		menu_committed = menu_cursor;
 		menu_control = false
 		menu_controlS = true
+			room_goto_next()
 	}
-	
+	if (keyboard_check_pressed(vk_enter)&& menu_cursor = 2)
+	{
+		menu_x_target = gui_width+200;
+		menu_committed = menu_cursor;
+		menu_control = false
+		room_goto_next()
+	}
 }
 
 
@@ -59,12 +66,12 @@ if (menu_controlS)
 		
 	
 	}
-	if (keyboard_check_pressed(vk_enter)&& menu_cursor = 2)
+	if (keyboard_check_pressed(vk_enter)&& menu_cursorS = 2)
 	{
 		menu_x_targetS = gui_widthS+200;
 		menu_committedS = menu_cursorS;
 		menu_controlS = false
-	
+		
 	}
 	
 }
