@@ -7,7 +7,7 @@ gui_margin = 32;
 
 menu_x = gui_width+200;
 menu_y = gui_height - gui_margin;
-menu_x_target = gui_width-gui_margin;
+menu_x_target = gui_width-gui_margin+90;
 menu_speed = 25; //lower is faster
 menu_font = fMenu;
 menu_itemheight = font_get_size(fMenu);
@@ -28,8 +28,8 @@ gui_marginS = 32;
 
 menu_xS = gui_widthS+200;
 menu_yS = gui_heightS - gui_marginS;
-menu_x_targetS = gui_width-gui_marginS;
-menu_speedS = 25; //lower is faster
+menu_x_targetS = gui_width-gui_marginS+90;
+menu_speedS = 15; //lower is faster
 menu_fontS = fMenu;
 menu_itemheightS = font_get_size(fMenu);
 menu_committedS = -1;
