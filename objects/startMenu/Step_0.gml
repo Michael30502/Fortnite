@@ -8,6 +8,7 @@ menu_x += (menu_x_target - menu_x) / menu_speed;
 if (menu_control)
 
 {
+	
 	if(keyboard_check_pressed(vk_up))
 	{
 		menu_cursor++;
@@ -28,7 +29,6 @@ if (menu_control)
 		menu_committed = menu_cursor;
 		menu_control = false;
 		menuControlS = true;
-		
 	}
 	if (keyboard_check_pressed(vk_enter)&& menu_cursor = 2)
 	{
@@ -36,8 +36,9 @@ if (menu_control)
 		menu_committed = menu_cursor;
 		menu_control = false;
 		room_goto_next();
-	}
 	
+	}	
+
 }
 
 
@@ -66,8 +67,6 @@ if (menuControlS=true)
 	{
 		menu_x_targetS = gui_widthS+200;
 		menu_committedS = menu_cursorS;
-		menu_controlS = false;
-		
 	}
 	
 }
