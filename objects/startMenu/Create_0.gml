@@ -1,6 +1,8 @@
 /// @description Insert description here
-// You can write your code in this editor
-/// @description Insert description here
+
+globalvar cardback;
+globalvar cardfront;
+globalvar avatar;
 // Her setter vi størrelsen på hvores GUI og vores menu
 gui_width = display_get_gui_width();
 gui_height = display_get_gui_height();
