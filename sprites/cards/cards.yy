@@ -2,7 +2,7 @@
     "id": "bd1198ad-bb30-4283-8dad-2b7d8af21180",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "cards",
+    "name": "cardS",
     "For3D": false,
     "HTile": false,
     "VTile": false,

@@ -2,6 +2,9 @@
 // You can write your code in this editor
 //Gamemaker laver som default altid de samme tilfældige muligheder med mindre man randomiser først
 randomise();
+
+sprite_index = cardBack;
+
 //Fuldskærm
 window_set_fullscreen(true);
 draw_set_halign(fa_center);

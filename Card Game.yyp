@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "176fa15d-8097-46c0-b22d-3749371cd01b",
+            "Value": {
+                "id": "ab09517d-a3bb-4fd1-a7c6-4f1e91a5b049",
+                "resourcePath": "sprites\\_75627418_457728948078095_2627124262514720768_n\\_75627418_457728948078095_2627124262514720768_n.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "178e10ec-c86e-44ad-9528-894c4aa55221",
             "Value": {
                 "id": "d23dff4c-a93a-4283-b8df-7e00c4d8c389",
@@ -103,6 +111,14 @@
             }
         },
         {
+            "Key": "2a31dbb2-89e5-44c2-86e1-e00fc83f34a3",
+            "Value": {
+                "id": "dce6fefa-4483-4009-82de-338f515dc4c2",
+                "resourcePath": "sprites\\ezgif_1_5f659bd6f0e4\\ezgif_1_5f659bd6f0e4.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "364fa06f-9688-46a7-b63f-2d7f209a1495",
             "Value": {
                 "id": "8f86f924-7d80-4f20-a791-8c6bb1e951c5",
@@ -130,7 +146,7 @@
             "Key": "3878d0e9-ac0e-41ea-92df-e48644e0947e",
             "Value": {
                 "id": "1d8ca9c8-5bf6-4e55-813f-5edd66fe4899",
-                "resourcePath": "sprites\\ezgif_com_resize\\ezgif_com_resize.yy",
+                "resourcePath": "sprites\\theoDance\\theoDance.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -255,10 +271,18 @@
             }
         },
         {
+            "Key": "8f3d6a59-9917-476b-9f09-006276a07ea8",
+            "Value": {
+                "id": "f42b82a2-eee6-44cd-8dd0-6152489f1f95",
+                "resourcePath": "sprites\\Theo\\Theo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "937a0479-a986-4b50-bbf3-b01c5c78788e",
             "Value": {
                 "id": "aeaa81ba-4558-4373-a9f8-297cb6ac8b45",
-                "resourcePath": "sprites\\cardBack\\cardBack.yy",
+                "resourcePath": "sprites\\cardBackS\\cardBackS.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -362,7 +386,7 @@
             "Key": "bd1198ad-bb30-4283-8dad-2b7d8af21180",
             "Value": {
                 "id": "bf78b134-84c4-4017-a5dd-70aac49b111f",
-                "resourcePath": "sprites\\cards\\cards.yy",
+                "resourcePath": "sprites\\cardS\\cardS.yy",
                 "resourceType": "GMSprite"
             }
         },

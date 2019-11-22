@@ -3,7 +3,9 @@ while (i<52){
 if theDeck.playerHand[i] == cardValue{
 theDeck.playerHand[i] = -1;
 i2 = 0;
-if (buildingPhase == false)
+if (buildingPhase == true)
+buildActivate = false;
+else
 while(i2<=52){
 	if(theDeck.discardPile[i2] == 0){
 theDeck.discardPile[i2] =cardValue;
@@ -11,6 +13,7 @@ theDeck.discardPile[i2] =cardValue;
 	}
 i2 +=1;
 }
+
 break;
 }
 i+=1;

@@ -23,5 +23,5 @@ buildSpace1 = true;
 if (x> 770 and x < 1070)
 buildSpace2 = true;
 
-if (x> 2070)
+if (x> 1070)
 buildSpace3 = true;

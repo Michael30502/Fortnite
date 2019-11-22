@@ -3,7 +3,7 @@
 
 if(discardPileUpdated){
 if(theDeck.discardPile[0]!=0){
-	sprite_index = cards
+	sprite_index = cardFront
 i = 0;
 while(i<52){
 if(theDeck.discardPile[i+1] == 0){

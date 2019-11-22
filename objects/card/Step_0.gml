@@ -98,7 +98,7 @@ case 0:uncommon = true; break;
 if (drawPhase) and ((chest) or (pistol)or(assaultRifle)or(sniper))
 selectable = true;
 
-if (buildingPhase) and ((stairs) or (wall) or (roof))
+if (buildingPhase) and (buildAction)and ((stairs) or (wall) or (roof))
 selectable = true;
 
 

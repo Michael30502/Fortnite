@@ -29,5 +29,5 @@ cardValue = theDeck.playerHand[thisCard-1]
 
 
 
-sprite_index = cards;
+sprite_index = cardFront;
 image_index = theDeck.playerHand[thisCard-1];

@@ -1,8 +1,12 @@
 /// @description Insert description here
 
-globalvar cardback;
-globalvar cardfront;
+globalvar cardBack;
+globalvar cardFront;
 globalvar avatar;
+
+cardFront = cardS;
+cardBack = cardBackS;
+avatar = theoDance;
 // Her setter vi størrelsen på hvores GUI og vores menu
 gui_width = display_get_gui_width();
 gui_height = display_get_gui_height();
@@ -55,13 +59,13 @@ if(kortMenu = true)
 {
 menu_committed = -1;
 menu_control = true;
-spriteArray[0] = cards;
-spriteArray[1] = cardBack;
+spriteArray[0] = cardS;
+spriteArray[1] = cardBackS;
 
 xArray[0] = 95; yArray[0] = 473;
 xArray[1] = 105; yArray[1] = 740;
 
-menu_cursor = 0;
+menu_cursor =2;
 
 
 

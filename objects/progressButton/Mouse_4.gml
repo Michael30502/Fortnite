@@ -21,14 +21,21 @@ else
 playerTurn = false;
 }
 
+if (buildingPhase) and (numCardSelected ==0) {
+buildingPhase = false;
+actionPhase = true;
+
+}
+
 if(drawPhase) and (drawUsed == true) and (drawAllowed == 0)and (buildingPhase == false){
 drawPhase = false;
 buildingPhase = true;
+image_index = 1;
 }
 
 if drawPhase image_index = 3;
-if buildingPhase image_index = 1;
-if actionPhase image_index = 4;
+
+if actionPhase image_index = 0;
 if discardPhase image_index = 5;
 
 

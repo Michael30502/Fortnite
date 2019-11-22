@@ -2,7 +2,7 @@
     "id": "3878d0e9-ac0e-41ea-92df-e48644e0947e",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "ezgif_com_resize",
+    "name": "theoDance",
     "For3D": false,
     "HTile": false,
     "VTile": false,
@@ -15,6 +15,28 @@
     "coltolerance": 0,
     "edgeFiltering": false,
     "frames": [
+        {
+            "id": "50b91d03-82fc-4ccb-861f-3933d5cf5bad",
+            "modelName": "GMSpriteFrame",
+            "mvc": "1.0",
+            "SpriteId": "3878d0e9-ac0e-41ea-92df-e48644e0947e",
+            "compositeImage": {
+                "id": "39043134-b581-4623-ac3c-20e6f38b497a",
+                "modelName": "GMSpriteImage",
+                "mvc": "1.0",
+                "FrameId": "50b91d03-82fc-4ccb-861f-3933d5cf5bad",
+                "LayerId": "00000000-0000-0000-0000-000000000000"
+            },
+            "images": [
+                {
+                    "id": "1e7398ad-1327-4bd0-9578-e4c5b0341291",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "50b91d03-82fc-4ccb-861f-3933d5cf5bad",
+                    "LayerId": "a9fca14e-43b2-4d51-a527-c5c5b7d43bf0"
+                }
+            ]
+        },
         {
             "id": "5eb7c275-7040-4d38-8018-cb4b63f1873d",
             "modelName": "GMSpriteFrame",
