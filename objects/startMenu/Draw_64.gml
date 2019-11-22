@@ -50,3 +50,7 @@ for (var i = 0; i < menu_itemsS; i++)
 	draw_set_color(col);
 	draw_text(xx,yy,txt);
 }
+
+for(var i=0; i<array_length_1d(spriteArray); i+=1){
+		 draw_sprite(spriteArray[i], 0, xArray[i], yArray[i]);
+	}

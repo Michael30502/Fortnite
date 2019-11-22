@@ -1,6 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 /// @description Insert description here
+globalvar cardfront;
+globalvar cardback;
+globalvar avatar;
+
 gui_width = display_get_gui_width();
 gui_height = display_get_gui_height();
 gui_margin = 32;
@@ -21,7 +25,7 @@ menu[0] = "Options";
 menu_items = array_length_1d(menu)
 menu_cursor = 2;
 
-//menu skoins
+//menu skins
 gui_widthS = display_get_gui_width();
 gui_heightS = display_get_gui_height();
 gui_marginS = 32;
@@ -42,10 +46,22 @@ menuS[0] = "Back";
 menu_itemsS = array_length_1d(menuS)
 menu_cursorS = 3;
 
+kortMenu = true;
+
+if(kortMenu = true)
+{
+menu_committed = -1;
+menu_control = true;
+spriteArray[0] = cardBack;
+spriteArray[1] = cards;
+
+xArray[0] = 105; yArray[0] = 473;
+xArray[1] = 95; yArray[1] = 740;
+
+menu_cursor = 0;
 
 
 
-
-
+}
 
 
