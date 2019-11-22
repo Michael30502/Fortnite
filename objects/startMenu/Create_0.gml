@@ -49,9 +49,21 @@ menu_itemsS = array_length_1d(menuS)
 menu_cursorS = 3;
 
 
+kortMenu = true;
+
+if(kortMenu = true)
+{
+menu_committed = -1;
+menu_control = true;
+spriteArray[0] = cards;
+spriteArray[1] = cardBack;
+
+xArray[0] = 95; yArray[0] = 473;
+xArray[1] = 105; yArray[1] = 740;
+
+menu_cursor = 0;
 
 
 
 
-
-
+}
