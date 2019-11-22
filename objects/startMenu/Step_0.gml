@@ -50,6 +50,7 @@ if (menu_control)
 
 if (menuControlS==true)
 {
+	// Får menuen til at flyve ud langsomt
 	menu_xS += (menu_x_targetS - menu_xS) / menu_speedS;
 	if(keyboard_check_pressed(vk_up))
 	{
