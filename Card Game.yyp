@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "3878d0e9-ac0e-41ea-92df-e48644e0947e",
+            "Value": {
+                "id": "1d8ca9c8-5bf6-4e55-813f-5edd66fe4899",
+                "resourcePath": "sprites\\ezgif_com_resize\\ezgif_com_resize.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "38a01b5e-e033-4499-89e1-1e1e2eaeea93",
             "Value": {
                 "id": "6c17c256-3daf-4f3b-b482-fbb9094a4206",
@@ -412,6 +420,14 @@
                 "id": "cff7d282-b6f3-472a-9a64-d57d377768ce",
                 "resourcePath": "sprites\\epicBorderSprite\\epicBorderSprite.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e9ecefc7-4ef9-49e5-bfb8-869d6f7cd331",
+            "Value": {
+                "id": "c06426f0-517b-43d9-8174-e1d2db9219ec",
+                "resourcePath": "objects\\oAvatar\\oAvatar.yy",
+                "resourceType": "GMObject"
             }
         },
         {

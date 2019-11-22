@@ -3,9 +3,9 @@
   if(buildSpace1 and buildingSpace1Available and buildAction)
  if (collision_point(mouse_x,mouse_y,buildSpace,false,false)){
  sprite_index = cards;
- cardValue = card.builderCard;
+ cardValue = builderCard;
  image_index =cardValue;
  buildingSpace1Available = false;
-buildAction = true;
+buildAction = false;
 buildActivate = true;
  }

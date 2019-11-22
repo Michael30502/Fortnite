@@ -27,7 +27,7 @@ selected = false;
 draw= false;
 cardValue = theDeck.playerHand[thisCard-1]
 
-builderCard = -1;
+
 
 sprite_index = cards;
 image_index = theDeck.playerHand[thisCard-1];

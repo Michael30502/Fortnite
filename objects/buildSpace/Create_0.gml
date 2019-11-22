@@ -10,7 +10,7 @@ buildingSpace1Available = false;
  buildingSpace2Available = false;
  buildingSpace3Available = false;
 
-
+builderCard = -1;
 
 buildSpace1 = false;
 buildSpace2 = false;

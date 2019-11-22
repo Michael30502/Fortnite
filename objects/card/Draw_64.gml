@@ -40,11 +40,9 @@ draw_text(x-50,y-250,"Healing")
 
 
 if(stairs){
-	if selected
-
 draw_text(x-50,y-250,"Stairs")
 if(buildingPhase and selected) {
-	builderCard = cardValue;
+	buildSpace.builderCard = cardValue;
 buildingSpace1Available = true;
 }
 else if (numCardSelected == 0)
@@ -54,19 +52,23 @@ buildingSpace1Available = false;
 
 if(wall){
 draw_text(x-50,y-250,"Wall")
-builderCard = cardValue;
-if(buildingPhase and selected)
+
+if(buildingPhase and selected){
+buildSpace.builderCard = cardValue;
 buildingSpace2Available = true;
+}
 else if (numCardSelected == 0)
 buildingSpace2Available = false;
 }
 
 
 if(roof){
-	builderCard = cardValue;
 draw_text(x-50,y-250,"Roof")
 if(buildingPhase and selected)
+{
+	buildSpace.builderCard = cardValue;
 buildingSpace3Available = true;
+}
 else if numCardSelected == 0
 buildingSpace3Available = false;
 }
