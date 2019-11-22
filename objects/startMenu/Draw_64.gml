@@ -14,11 +14,11 @@ for (var i = 0; i < menu_items; i++)
 	if(menu_cursor == i)
 	{
 		txt = string_insert (">", txt, 0);
-		var col = c_white;
+		var col = c_yellow;
 	}
 	else
 	{
-		var col = c_gray;
+		var col = c_white;
 	}
 	var xx = menu_x
 	var yy = menu_y - (menu_itemheight * (i*1.15));
@@ -39,11 +39,11 @@ for (var i = 0; i < menu_itemsS; i++)
 	if(menu_cursorS == i)
 	{
 		txt = string_insert (">", txt, 0);
-		var col = c_white;
+		var col = c_yellow;
 	}
 	else
 	{
-		var col = c_gray;
+		var col = c_white;
 	}
 	var xx = menu_xS
 	var yy = menu_yS - (menu_itemheightS * (i*1.15));
