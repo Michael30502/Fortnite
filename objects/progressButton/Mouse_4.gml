@@ -21,6 +21,23 @@ else
 playerTurn = false;
 }
 
+if(discardPhase ==true) and (playerHandCount > 5){
+	
+playerTurn = false;
+discardPhase = false;
+}
+
+if(actionPhase) and (numCardSelected == 0){
+actionPhase = false;
+if (playerHandCount > 5)
+discardPhase = true;
+else {
+playerTurn = false;
+image_index =7;
+}
+}
+
+
 if (buildingPhase) and (numCardSelected ==0) {
 buildingPhase = false;
 actionPhase = true;
@@ -34,9 +51,10 @@ image_index = 1;
 }
 
 if drawPhase image_index = 3;
-
 if actionPhase image_index = 0;
-if discardPhase image_index = 5;
+if discardPhase image_index = 2;
+
+
 
 
 }

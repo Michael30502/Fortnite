@@ -3,3 +3,4 @@
 
 
 draw_text(x,y-70,"You have to draw "+ string(drawAllowed)+" cards")
+draw_text(x-100,y,playerHandCount-numCardSelected != 5)

@@ -28,6 +28,21 @@ globalvar drawUsed;
 globalvar superAction;
 globalvar buildAction;
 globalvar action;
+globalvar playerHealth;
+globalvar cpuHealth;
+globalvar playerShield;
+globalvar cpuShield;
+
+globalvar boogieBomb;
+globalvar stinkBomb;
+globalvar smokeBomb;
+
+cpuHealth = 100;
+playerHealth = 100;
+playerShield = 0;
+cpuShield = 0;
+
+
 action = true;
 buildAction = true;
 superAction =true;

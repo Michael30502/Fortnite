@@ -28,6 +28,26 @@ deleteCard();
 
 }
 
+
+if(discardPhase) and (selected) and (discardPilePressed){
+
+numCardSelected -=1;
+playerHandCount -= 1;
+
+selected = false;
+deleteCard();
+}
+
+if((discardPhase))
+{
+	if((playerHandCount-numCardSelected != 5))
+selectable = true;
+else
+selectable = false;
+
+}
+
+
 if(drawCard and selected){
 	
 

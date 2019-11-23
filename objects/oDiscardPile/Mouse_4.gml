@@ -14,3 +14,8 @@ theDeck.mulliganUnused = true;
 if(drawPhase)
 drawCard = true;
 }
+
+if collision_point(mouse_x,mouse_y,oDiscardPile,false,false)
+{
+discardPilePressed = true;
+}

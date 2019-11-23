@@ -32,11 +32,92 @@ draw_text(x-50,y-250,"ACE")
 if(trap)
 draw_text(x-50,y-250,"Trap")
 
-if(grenade)
+if(grenade){
 draw_text(x-50,y-250,"Grenade")
 
+if(uncommon) and (selected) and (discardPilePressed){
+cpuHealth -= 40;
+audio_play_sound(Granat,1,false)
+discardPilePressed = false;
+deleteCard();
+}
+
+if (rare)and (selected) and (discardPilePressed){
+stinkBomb = true;
+discardPilePressed = false;
+deleteCard();
+}
+
+if(epic)and (selected) and (discardPilePressed){
+smokeBomb = true;
+discardPilePressed = false;
+deleteCard();
+}
+
+if (legendary)and (selected) and (discardPilePressed){
+boogieBomb = true;
+audio_play_sound(Disco,1,false)
+discardPilePressed = false;
+deleteCard();
+}
+
+
+}
+
+
 if(healing)
-draw_text(x-50,y-250,"Healing")
+draw_text(x-50,y-250,"Healing"){
+if(selected){
+
+if(rarity == uncommon)and (discardPilePressed)
+{
+audio_play_sound(Splash,1,false);
+playerHealth +=20;
+if(playerHealth >100){
+healthDiffrence = playerHealth - 100;
+playerHealth-= healthDiffrence;
+playerShield += healthDiffrence;
+healthDiffrence = 0
+}
+deleteCard();
+}
+
+if(rarity == rare)and (discardPilePressed)
+{audio_play_sound(Drik,1,false)
+
+playerShield +=25;
+if(playerShield > 100)
+playerShield = 100
+
+deleteCard();
+}
+
+
+if(rarity == epic )and (discardPilePressed)
+{
+audio_play_sound(Med_kit,1,false)
+
+
+playerHealth =100;
+
+deleteCard();
+
+}
+
+if (rarity == legendary)and (discardPilePressed)
+{
+{
+audio_play_sound(Drik,1,false)
+
+
+playerHealth =100;
+playerShield =100;
+deleteCard();
+
+}}}}
+
+
+
 
 
 if(stairs){

@@ -7,4 +7,5 @@ if (startUpPhase == true){
 startUpPhase = false;
 mulliganPhase = true;
 playerTurn = true;
+image_index = 5;
 }
