@@ -14,3 +14,16 @@
  {
  draw_sprite(sidewaysBorderBlue,0,x,y);
  }
+ 
+ 
+ if(weaponSpace1) and (weaponSpace1Available){
+ draw_sprite(borderSpriteBlue,0,x,y);
+}
+
+if(weaponSpace2)and (weaponSpace2Available){
+ draw_sprite(borderSpriteBlue,0,x,y);
+}
+
+if(weaponSpace3)and (weaponSpace3Available){
+ draw_sprite(borderSpriteBlue,0,x,y);
+}

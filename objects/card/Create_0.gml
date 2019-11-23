@@ -15,6 +15,9 @@ pistol = false;
 assaultRifle = false;
 sniper= false;
 
+
+rarity = -1;
+
 uncommon = false;
 rare = false; 
 epic = false;

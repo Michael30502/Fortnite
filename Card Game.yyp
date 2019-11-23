@@ -71,14 +71,6 @@
             }
         },
         {
-            "Key": "176fa15d-8097-46c0-b22d-3749371cd01b",
-            "Value": {
-                "id": "ab09517d-a3bb-4fd1-a7c6-4f1e91a5b049",
-                "resourcePath": "sprites\\_75627418_457728948078095_2627124262514720768_n\\_75627418_457728948078095_2627124262514720768_n.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "178e10ec-c86e-44ad-9528-894c4aa55221",
             "Value": {
                 "id": "d23dff4c-a93a-4283-b8df-7e00c4d8c389",
@@ -108,14 +100,6 @@
                 "id": "121bfe23-3b0c-4688-880b-63c4fa7be308",
                 "resourcePath": "objects\\oDiscardPile\\oDiscardPile.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "2a31dbb2-89e5-44c2-86e1-e00fc83f34a3",
-            "Value": {
-                "id": "dce6fefa-4483-4009-82de-338f515dc4c2",
-                "resourcePath": "sprites\\ezgif_1_5f659bd6f0e4\\ezgif_1_5f659bd6f0e4.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -271,14 +255,6 @@
             }
         },
         {
-            "Key": "8f3d6a59-9917-476b-9f09-006276a07ea8",
-            "Value": {
-                "id": "f42b82a2-eee6-44cd-8dd0-6152489f1f95",
-                "resourcePath": "sprites\\Theo\\Theo.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "937a0479-a986-4b50-bbf3-b01c5c78788e",
             "Value": {
                 "id": "aeaa81ba-4558-4373-a9f8-297cb6ac8b45",
@@ -383,6 +359,22 @@
             }
         },
         {
+            "Key": "bb713493-ed34-49dd-9588-0f099108563e",
+            "Value": {
+                "id": "59054e9a-380d-4ae1-88b4-506caa4ff757",
+                "resourcePath": "sprites\\haliphaDance\\haliphaDance.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bc1d60eb-b728-4f3a-94c3-1c19f5588f7e",
+            "Value": {
+                "id": "30eeeaa1-1ed5-4c86-9614-4a0f0c095ddf",
+                "resourcePath": "scripts\\buildScript\\buildScript.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "bd1198ad-bb30-4283-8dad-2b7d8af21180",
             "Value": {
                 "id": "bf78b134-84c4-4017-a5dd-70aac49b111f",
@@ -480,7 +472,8 @@
         }
     ],
     "script_order": [
-        "43d86462-7485-4f75-b6eb-e22a122751ad"
+        "43d86462-7485-4f75-b6eb-e22a122751ad",
+        "bc1d60eb-b728-4f3a-94c3-1c19f5588f7e"
     ],
     "tutorial": ""
 }

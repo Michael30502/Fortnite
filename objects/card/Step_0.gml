@@ -86,10 +86,10 @@ case 12: sniper = true; break;
 
 switch ((cardValue+1) mod 4)
 {
-case 3:rare = true; break;
-case 2:epic=true; break;
-case 1:legendary =true; break;
-case 0:uncommon = true; break;
+case 3:rare = true; rarity = rare; break;
+case 2:epic=true; rarity = epic; break;
+case 1:legendary =true; rarity = legendary; break;
+case 0:uncommon = true; rarity = uncommon; break;
 }
 
 //Kort funktioner 
@@ -97,17 +97,23 @@ case 0:uncommon = true; break;
 
 if (drawPhase) and ((chest) or (pistol)or(assaultRifle)or(sniper))
 selectable = true;
-
-if (buildingPhase) and (buildAction)and ((stairs) or (wall) or (roof))
+//BuildAction
+if (buildingPhase) and (buildAction) and ((stairs) or (wall) or (roof))
 selectable = true;
 
+if(actionPhase) and (action) and (numCardSelected ==0) and ((mBullet)or(sBullet)or(trap)or((healing) and (legendary = false)))
+selectable = true;
 
+if(actionPhase)and (numCardSelected ==0) and ((pistol)or(assaultRifle)or(sniper)or(grenade)or((healing) and (uncommon = true)))
+selectable = true;
 
+if(actionPhase)and (numCardSelected ==0) and superAction and ((hBullet)or((healing)and(legendary = true)))
+selectable = true;
 
 if ((id == gameMaster.cardPoint)and (mouse_check_button_pressed(mb_left)) and ((selectable))){
 if(selected==false)
 {	
-	if(buildingPhase == false)
+	if(buildingPhase == false) or (actionPhase== false)
 	{
 selected = true;
 numCardSelected+=1;

@@ -3,7 +3,9 @@
 globalvar cardBack;
 globalvar cardFront;
 globalvar avatar;
+globalvar cpuAvatar;
 
+cpuAvatar = haliphaDance;
 cardFront = cardS;
 cardBack = cardBackS;
 avatar = theoDance;

@@ -43,6 +43,8 @@ if(stairs){
 draw_text(x-50,y-250,"Stairs")
 if(buildingPhase and selected) {
 	buildSpace.builderCard = cardValue;
+	buildSpace.builderCardType = stairs;
+	buildSpace.builderRarity = rarity;
 buildingSpace1Available = true;
 }
 else if (numCardSelected == 0)
@@ -54,7 +56,9 @@ if(wall){
 draw_text(x-50,y-250,"Wall")
 
 if(buildingPhase and selected){
-buildSpace.builderCard = cardValue;
+	buildSpace.builderCard = cardValue;
+	buildSpace.builderCardType = wall;
+	buildSpace.builderRarity = rarity;
 buildingSpace2Available = true;
 }
 else if (numCardSelected == 0)
@@ -67,6 +71,8 @@ draw_text(x-50,y-250,"Roof")
 if(buildingPhase and selected)
 {
 	buildSpace.builderCard = cardValue;
+	buildSpace.builderCardType = roof;
+	buildSpace.builderRarity = rarity;
 buildingSpace3Available = true;
 }
 else if numCardSelected == 0
@@ -84,14 +90,51 @@ draw_text(x-50,y-250,"Medium bullet")
 if(hBullet)
 draw_text(x-50,y-250,"Heavy bullet")
 
-if(pistol)
+if(pistol){
 draw_text(x-50,y-250,"Pistol")
 
-if(assaultRifle)
+if(actionPhase and selected)
+{
+	buildSpace.builderCard = cardValue;
+	buildSpace.builderCardType = roof;
+	buildSpace.builderRarity = rarity;
+weaponSpace1Available = true;
+}
+else if (numCardSelected == 0)
+weaponSpace1Available = false;
+
+}
+if(assaultRifle){
 draw_text(x-50,y-250,"Assault Rifle")
 
-if(sniper)
+if(actionPhase and selected)
+{
+	buildSpace.builderCard = cardValue;
+	buildSpace.builderCardType = roof;
+	buildSpace.builderRarity = rarity;
+weaponSpace2Available = true;
+}
+else if (numCardSelected == 0)
+weaponSpace2Available = false;
+
+}
+
+if(sniper){
 draw_text(x-50,y-250,"Sniper")
+
+if(actionPhase and selected)
+{
+	buildSpace.builderCard = cardValue;
+	buildSpace.builderCardType = roof;
+	buildSpace.builderRarity = rarity;
+weaponSpace3Available = true;
+}
+else if (numCardSelected == 0)
+weaponSpace3Available = false;
+
+
+}
+
 
 if(uncommon)
 draw_text(x-50,y-280,"Uncommon")

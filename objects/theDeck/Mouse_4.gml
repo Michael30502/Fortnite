@@ -24,7 +24,23 @@ cardPicked= 0;
 
 drawAllowed -= 1;
 handUpdated = true;
+i3 = 0;
+while(i3<=51){
+if(aDeck[i3] != 0)
+break;
 
+if(i3 == 51){
+aDeck =discardPile
+dNumber = 0;
+while(dNumber<=51){
+discardPile[aNumber] = 0;
+dNumber +=1;
+}
+break;
+}
+else
+i3 +=1;
+}
 }}
 
 //Mulliganer valgte kort og gør mulligan umuligt
