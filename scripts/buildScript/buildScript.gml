@@ -19,5 +19,6 @@ theDeck.discardPile[i2] =cardValue;
 buildAction = false;
 buildActivate = true;
 superAction = false
+audio_play_sound(build,1,false);
 buildingSpaceUsed = true;
  }

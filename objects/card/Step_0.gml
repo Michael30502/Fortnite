@@ -9,13 +9,14 @@ numCardSelected = 0 ;
 progressButtonPressed = false;
 }
 
-if (mulliganPhase) and(mulliganSecondPhase == false)
+if (mulliganPhase) and(mulliganSecondPhase == false) and (owner == "player")
 selectable = true
 
-
+if(card.trapType1) and (actionPhase) and (owner == "cpu") and (numCardSelected ==1)
+selectable = true
 
 //Game ender kortet når mulligan bliver aktiveret 
-if((selected)and (mulligan == false) and (mulliganPhase)){
+if((selected)and (mulligan == false) and (mulliganPhase))and (owner == "player"){
 mulligan = false;
 mulliganSecondPhase = true;
 
@@ -38,7 +39,7 @@ selected = false;
 deleteCard();
 }
 
-if((discardPhase))
+if((discardPhase)and (owner == "player"))
 {
 	if((playerHandCount-numCardSelected != 5))
 selectable = true;
@@ -126,25 +127,26 @@ case 0:uncommon = true; rarity = uncommon; break;
 //Kort funktioner 
 
 
-if (drawPhase) and ((chest) or (pistol)or(assaultRifle)or(sniper))
+if (drawPhase)and (owner == "player") and ((chest) or (pistol)or(assaultRifle)or(sniper)) 
 selectable = true;
 //BuildAction
-if (buildingPhase) and (buildAction) and ((stairs) or (wall) or (roof))
+if (buildingPhase)and (owner == "player") and (buildAction) and ((stairs) or (wall) or (roof))
 selectable = true;
 
-if(actionPhase) and (action) and (numCardSelected ==0) and ((mBullet)or(sBullet)or(trap)or((healing) and (legendary = false)))
+if(actionPhase)and (owner == "player") and (action) and (numCardSelected ==0) and ((mBullet)or(sBullet)or(trap)or((healing) and (legendary = false)))
 selectable = true;
 
-if(actionPhase)and (numCardSelected ==0) and ((pistol)or(assaultRifle)or(sniper)or(grenade)or((healing) and (uncommon = true)))
+if(actionPhase)and (owner == "player")and (numCardSelected ==0) and ((pistol)or(assaultRifle)or(sniper)or(grenade)or((healing) and (uncommon = true)))
 selectable = true;
 
-if(actionPhase)and (numCardSelected ==0) and superAction and ((hBullet)or((healing)and(legendary = true)))
+if(actionPhase)and (owner == "player")and (numCardSelected ==0) and superAction and ((hBullet)or((healing)and(legendary = true)))
 selectable = true;
+
 
 if ((id == gameMaster.cardPoint)and (mouse_check_button_pressed(mb_left)) and ((selectable))){
 if(selected==false)
 {	
-	if(buildingPhase == false) or (actionPhase== false)
+	if(buildingPhase == actionPhase)
 	{
 selected = true;
 numCardSelected+=1;

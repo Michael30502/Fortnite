@@ -14,7 +14,14 @@ if(handUpdated){
 	instance_deactivate_object(card);
 		counter= 1;
 while (counter<= playerHandCount){
+		owner = "player";
 instance_create_layer((room_width-500+((playerHandCount-counter)*50)),room_height-room_height/20,"Layer",card);
+counter +=1;
+}
+counter = 1
+while(counter<=cpuHandCount){
+	owner = "cpu";
+instance_create_layer((room_width-700+((cpuHandCount+counter)*50)),room_height/20,"Layer",card);
 counter +=1;
 }
 handUpdated = false;

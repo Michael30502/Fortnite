@@ -5,18 +5,27 @@
 
 
 
-
-if (id == gameMaster.cardPoint) and (selected == false) and (thisCard == 1) and (selectable)
+//if (actionPhase != true or numCardSelected != 1)
+if (id == gameMaster.cardPoint) and (selected == false) and (thisCard == 1) and (selectable){
 draw_sprite(borderSpriteBlue,0,x,y);
-if (id == gameMaster.cardPoint) and (selected == false) and (thisCard != 1) and (selectable)
-draw_sprite(epicBorderSpriteBlue,0,x,y);
 
+}
+//if (actionPhase != true or numCardSelected != 1)
+if (id == gameMaster.cardPoint) and (selected == false) and (thisCard != 1) and (selectable){
+	if(owner == "player")	
+draw_sprite(epicBorderSpriteBlue,0,x,y);
+else
+draw_sprite(cpuEpicBorderSpriteBlue,0,x,y);
+}
 
 if (selected ==true and thisCard == 1){
 draw_sprite(borderSprite,0,x,y);
 }
 if (selected ==true) and (thisCard != 1){
+	if(owner == "player")
 draw_sprite(epicBorderSprite,0,x,y);
+else 
+draw_sprite(cpuEpicBorderSprite,0,x,y);
 }
 
 
@@ -29,8 +38,29 @@ draw_text(progressButton.x-280,progressButton.y,"Cards selected:"+string(numCard
 if(chest)
 draw_text(x-50,y-250,"ACE")
 
-if(trap)
+if(trap){
 draw_text(x-50,y-250,"Trap")
+if(selected)
+{
+if(rarity == uncommon) or (rarity == epic)
+{
+trapType1 = true;
+}
+if(rarity = rare) or (rarity == legendary)
+{
+trapType2 = true
+}
+
+
+}
+else{
+	trapType1 = false;
+	trapType2 = false;
+	}
+
+
+}
+
 
 if(grenade){
 draw_text(x-50,y-250,"Grenade")
@@ -65,8 +95,8 @@ deleteCard();
 }
 
 
-if(healing)
-draw_text(x-50,y-250,"Healing"){
+if(healing){
+draw_text(x-50,y-250,"Healing")
 if(selected){
 
 if(rarity == uncommon)and (discardPilePressed)

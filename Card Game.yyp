@@ -215,6 +215,22 @@
             }
         },
         {
+            "Key": "5216ed94-2713-4a55-8bfe-42783e969b0b",
+            "Value": {
+                "id": "a25c98c5-e258-4778-b246-855a2f702fac",
+                "resourcePath": "sounds\\build\\build.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "52d0447d-365e-4dcf-a4fb-08aea368350d",
+            "Value": {
+                "id": "6512aa39-0bab-474f-ba97-d7c2261cf156",
+                "resourcePath": "scripts\\deleteCpuCard\\deleteCpuCard.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "61e2e42a-c8f5-4361-ac07-d0b2cc1f5c8d",
             "Value": {
                 "id": "6ac01f51-4ddc-4f41-8052-1b130f62c063",
@@ -300,6 +316,14 @@
                 "id": "e6ef5311-956a-4280-9b8b-e929c2fd941a",
                 "resourcePath": "views\\97cf2ebb-92e2-44c6-b2d0-6842d6255787.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a85855cb-e7a2-49e9-a30b-fbde4030dbed",
+            "Value": {
+                "id": "536d650f-e199-4b91-af38-dd0af5a214bd",
+                "resourcePath": "sprites\\cpuEpicBorderSprite\\cpuEpicBorderSprite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -471,6 +495,14 @@
             }
         },
         {
+            "Key": "cd1994a1-8b4a-4dba-a922-8e5d4bd99f57",
+            "Value": {
+                "id": "80c20b6b-1b1a-4423-8679-0cddaf5f1294",
+                "resourcePath": "sprites\\cpuEpicBorderSpriteBlue\\cpuEpicBorderSpriteBlue.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ce4c63c6-3492-4ec3-944b-a0286106c7f3",
             "Value": {
                 "id": "f8c51751-6e7a-41ac-a156-f29724bdb3e0",
@@ -562,7 +594,8 @@
     "script_order": [
         "43d86462-7485-4f75-b6eb-e22a122751ad",
         "bc1d60eb-b728-4f3a-94c3-1c19f5588f7e",
-        "2cb43860-a746-429f-aad8-fc6fc859f30a"
+        "2cb43860-a746-429f-aad8-fc6fc859f30a",
+        "52d0447d-365e-4dcf-a4fb-08aea368350d"
     ],
     "tutorial": ""
 }

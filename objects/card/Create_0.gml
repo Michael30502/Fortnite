@@ -28,9 +28,20 @@ selectable = false;
 thisCard =theDeck.counter;
 selected = false;
 draw= false;
-cardValue = theDeck.playerHand[thisCard-1]
+owner = theDeck.owner;
+trapType1 = false;
+trapType2 = false;
 
 
-
+if(owner == "player"){
+cardValue = theDeck.playerHand[thisCard-1];
 sprite_index = cardFront;
 image_index = theDeck.playerHand[thisCard-1];
+}
+
+if (owner =="cpu"){
+cardValue = cpuHand[thisCard-1];
+sprite_index = cardFront;
+image_index = cpuHand[thisCard-1];
+
+}

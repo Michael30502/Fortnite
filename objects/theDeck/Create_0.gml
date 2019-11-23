@@ -32,7 +32,7 @@ globalvar playerHealth;
 globalvar cpuHealth;
 globalvar playerShield;
 globalvar cpuShield;
-
+globalvar cpuHand;
 globalvar boogieBomb;
 globalvar stinkBomb;
 globalvar smokeBomb;
@@ -42,6 +42,8 @@ playerHealth = 100;
 playerShield = 0;
 cpuShield = 0;
 
+trapType1 = false;
+trapType2 = false;
 
 action = true;
 buildAction = true;
@@ -65,6 +67,7 @@ draw= false;
 //Laver arrays til kortene
 aDeck = array_create(52);
 playerHand = array_create(52);
+cpuHand = array_create(52);
 discardPile = array_create(52);
 
 //Fortæller hånden at den skal tegnes igen
@@ -72,6 +75,8 @@ handUpdated = true;
 
 //Fortæller hånden at den har ændret sig
 playerHandUpdate = false;
+
+cpuHandUpdate = false;
 
 //Fortæller hvor mange kort du har på hånden
 playerHandCount = 0;
@@ -94,7 +99,11 @@ mulliganUnused = false;
 //Angiver hvad det sidste kort der blev trukket var
 lastCardDrawn = -1;
 
+owner = "cpu";
+
+
 start = true;
+
 
 drawUsed = false;
 
