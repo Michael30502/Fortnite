@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "2cb43860-a746-429f-aad8-fc6fc859f30a",
+            "Value": {
+                "id": "8824bf73-9e4f-4db0-ba6d-dd86dc61c3de",
+                "resourcePath": "scripts\\weaponScript\\weaponScript.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "364fa06f-9688-46a7-b63f-2d7f209a1495",
             "Value": {
                 "id": "8f86f924-7d80-4f20-a791-8c6bb1e951c5",
@@ -473,7 +481,8 @@
     ],
     "script_order": [
         "43d86462-7485-4f75-b6eb-e22a122751ad",
-        "bc1d60eb-b728-4f3a-94c3-1c19f5588f7e"
+        "bc1d60eb-b728-4f3a-94c3-1c19f5588f7e",
+        "2cb43860-a746-429f-aad8-fc6fc859f30a"
     ],
     "tutorial": ""
 }

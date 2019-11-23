@@ -13,11 +13,9 @@ theDeck.discardPile[i2] =cardValue;
  cardValue = builderCard;
  rarity = builderRarity;
  image_index =cardValue;
- buildingSpace1Available = false;
-  buildingSpace2Available = false;
-   buildingSpace3Available = false;
-buildAction = false;
-buildActivate = true;
-superAction = false
+ weaponSpace1Available = false;
+  weaponSpace2Available = false;
+   weaponSpace3Available = false;
+weaponActivate = true;
 buildingSpaceUsed = true;
  }

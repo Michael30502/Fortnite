@@ -65,6 +65,17 @@ selected = false;
 deleteCard();
 }
 
+if(actionPhase and selected and weaponActivate)
+{
+	numCardSelected -= 1;
+playerHandCount -= 1;
+
+superAction = false;
+selected = false;
+deleteCard();
+}
+
+
 
 //Kort klasifiktaioner 
 switch round((cardValue)div 4) 

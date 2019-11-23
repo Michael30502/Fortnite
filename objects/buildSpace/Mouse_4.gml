@@ -15,14 +15,14 @@ buildScript();
 
 
 if(weaponSpace1) and (weaponSpace1Available){
-
+weaponScript();
 }
 
 if(weaponSpace2)and (weaponSpace2Available){
-
+weaponScript();
 }
 
 if(weaponSpace3)and (weaponSpace3Available){
-
+weaponScript();
 
 }

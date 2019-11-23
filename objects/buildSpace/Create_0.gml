@@ -6,10 +6,11 @@ globalvar buildingSpace3Available;
 globalvar weaponSpace1Available
 globalvar weaponSpace2Available;
 globalvar weaponSpace3Available;
-
+globalvar weaponActivate;
 
 globalvar buildActivate;
 
+weaponActivate = false;
 buildActivate = false;
 buildingSpace1Available = false;
  buildingSpace2Available = false;
