@@ -5,10 +5,10 @@ globalvar cardFront;
 globalvar avatar;
 globalvar cpuAvatar;
 
-cpuAvatar = haliphaDance;
+cpuAvatar = thomasDance;
 cardFront = cardS;
 cardBack = cardBackS;
-avatar = christianDance;
+avatar = andersDance;
 // Her setter vi størrelsen på hvores GUI og vores menu
 gui_width = display_get_gui_width();
 gui_height = display_get_gui_height();
