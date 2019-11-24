@@ -52,18 +52,37 @@ menuS[0] = "Back";
 
 
 menu_itemsS = array_length_1d(menuS)
-menu_cursorS = 3;
+menu_cursorS = 5;
 
 //variabler til kortmenu
 kortMenu = false;
+kortMenuCursor2 = 3;
 kortMenuCursor = 2;
 spriteArray[0] = cardS;
 spriteArray[1] = cardBackS;
+spriteArray[2] = fortniteCards;
+spriteArray[3] = fortniteBack1;
+spriteArray[4] = fortniteBack2;
 
-xArray[0] = -200; yArray[0] = 473;
-xArray[1] = -200; yArray[1] = 720;
-kortPositionX = 200
+xArray[0] = -200; yArray[0] = 124;
+xArray[1] = -200; yArray[1] = 372;
+xArray[2] = -200; yArray[2] = 124;
+xArray[3] = -200; yArray[3] = 372;
+xArray[4] = -200; yArray[4] = 124;
+kortPositionX = 200;
+kortPositionX2 = 235;
+kortPositionX3 = 400;
+kortPositionX4 = 600;
+
 menu_cursor =2;
+
+//variabler til avatarMenu
+globalvar avatarMenu;
+avatarMenu = false;
+globalvar menuCursorA;
+
+menuCursorA = 10;
+
 
 
 
@@ -74,23 +93,33 @@ menu_yC = 5000;
 menu_y_targetC =-2000; 
 menu_speedC = 2000; //lower is faster
 menu_itemheightC = 200;
-menuC[16] = "Hoved programmør";
-menuC[15] = "Vsovs Mikkel";
-menuC[14] = "Programmør/Persona master";
-menuC[13] = "Gokkebro";
-menuC[12] = "Kort designere";
-menuC[11] = "Batman"
-menuC[10] = "Ukendt person"
-menuC[9] = "CEO/kommunikations Boss"
-menuC[8] = "Christoffer Beck Ordrup"
-menuC[7] = "Legende kommentarer"
-menuC[6] = "Marco #666"
-menuC[5] = "Byggemand bob"
-menuC[4] = "Beckudrup"
-menuC[3] = "Ide skaber og legendarisk gud til fortnite"
-menuC[2] = "Theo"
-menuC[1] = "dansman"
-menuC[0] = "MufasaKong"
+menuC[25] = "HOVED PROGRAMMØR";
+menuC[24] = "Vsovs Mikkel";
+menuC[23] = "PROGRAMMØR/PERSONAMASTER";
+menuC[22] = "Gokkebro";
+menuC[21] = "kort designere";
+menuC[20] = "Batman"
+menuC[19] = "Ukendt person"
+menuC[18] = "CEO/KOMMUNIKATION BOSS"
+menuC[17] = "Christoffer Beck Ordrup"
+menuC[16] = "LEGENDE KOMMENTATOR"
+menuC[15] = "Marco #666"
+menuC[14] = "BYGGEMAND BOB"
+menuC[13] = "Beckudrup"
+menuC[12] = "LEGENDARISK GUD TIL FORTNITE"
+menuC[11] = "Theo"
+menuC[10] = "DANSDUDES"
+menuC[9] = "MufasaKong"
+menuC[8] = "Theo"
+menuC[7] = "Tobias"
+menuC[6] = "Thomas"
+menuC[5] = "Mathilde"
+menuC[4] = "Beck"
+menuC[3] = "Anders"
+menuC[2] = "´Christian"
+menuC[1] = "Marco"
+menuC[0] = "Beck Jr"
+
 menuControlC =false;
 
 menu_itemC = array_length_1d(menuC)
