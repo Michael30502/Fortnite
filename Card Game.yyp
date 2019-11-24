@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "584f08d5-ed6d-4358-bd7d-9bb53ef43e74",
+            "Value": {
+                "id": "c73e0a48-5144-4d1b-9124-f7249754cf2d",
+                "resourcePath": "sprites\\Beck_JR\\Beck_JR.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5bac5c80-a1f7-44ff-8cda-1d3278772cec",
             "Value": {
                 "id": "2fde55b3-33e8-4b7a-ac71-e5cee0b0f894",
