@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "0485b3a1-e138-4ff8-aeb6-0af5b62fc645",
+            "Value": {
+                "id": "87ddcb49-4d27-4332-95a7-bedae4172881",
+                "resourcePath": "sprites\\Mathilde_Dance\\Mathilde_Dance.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0638376e-ebd2-44f1-b30d-095946f6edc9",
             "Value": {
                 "id": "41db4ec5-42b9-4662-908e-ab00e42a67ca",
@@ -67,6 +75,14 @@
             "Value": {
                 "id": "c7c1c552-6be8-4a0f-add3-78d4ac0dd7f1",
                 "resourcePath": "sprites\\sDiscardPile\\sDiscardPile.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "08367571-c4c7-4b20-8185-acd8402c6b8e",
+            "Value": {
+                "id": "e8f9bf19-c938-49d8-82af-aeb6e6ed49d0",
+                "resourcePath": "sprites\\Marco_Dance\\Marco_Dance.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -124,6 +140,14 @@
                 "id": "3f0d2946-dc37-48fc-93f6-cef2100e23d9",
                 "resourcePath": "sounds\\Snipe\\Snipe.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "22bbc304-6fb8-4cba-a294-4c4eeb5c7b2e",
+            "Value": {
+                "id": "f1d6bef2-0859-48d9-8ebe-a74c9df1b5e7",
+                "resourcePath": "sprites\\Christan_Dance\\Christan_Dance.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -263,11 +287,27 @@
             }
         },
         {
+            "Key": "61beb4a2-ac40-48af-be09-ab699eefc5f0",
+            "Value": {
+                "id": "a5da4bc4-71d1-4930-8b04-c68bfe51ac9c",
+                "resourcePath": "sprites\\Anders_Dance\\Anders_Dance.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "61e2e42a-c8f5-4361-ac07-d0b2cc1f5c8d",
             "Value": {
                 "id": "6ac01f51-4ddc-4f41-8052-1b130f62c063",
                 "resourcePath": "fonts\\fMenu\\fMenu.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "6307dea1-103f-4840-9843-6b73f8b270b4",
+            "Value": {
+                "id": "9b244238-7f88-463b-9800-f062fd3daf04",
+                "resourcePath": "sprites\\Tobias_Dance\\Tobias_Dance.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -551,6 +591,14 @@
             }
         },
         {
+            "Key": "ccb95397-aa57-4d4e-8cdf-63a224b01be2",
+            "Value": {
+                "id": "be07f256-1e3b-4617-b9c4-6b21801afda6",
+                "resourcePath": "sprites\\Beck_Dance\\Beck_Dance.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cd1994a1-8b4a-4dba-a922-8e5d4bd99f57",
             "Value": {
                 "id": "80c20b6b-1b1a-4423-8679-0cddaf5f1294",
@@ -603,6 +651,14 @@
             "Value": {
                 "id": "cff7d282-b6f3-472a-9a64-d57d377768ce",
                 "resourcePath": "sprites\\epicBorderSprite\\epicBorderSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e13a1fe9-6dcf-4cbe-949b-4d42e54efe54",
+            "Value": {
+                "id": "60992436-8b03-4b7d-8a56-2ab97627d22b",
+                "resourcePath": "sprites\\Thomas_Dance\\Thomas_Dance.yy",
                 "resourceType": "GMSprite"
             }
         },
