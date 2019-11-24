@@ -2,7 +2,7 @@
     "id": "ccb95397-aa57-4d4e-8cdf-63a224b01be2",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "Beck_Dance",
+    "name": "beckDance",
     "For3D": false,
     "HTile": false,
     "VTile": false,

@@ -3,3 +3,9 @@
 
 globalvar cpuHandCount;
 cpuHandCount = 0;
+counter = 120;
+
+cpuDrawPhase = false;
+cpuBuildPhase = false;
+cpuActionPhase = false;
+cpuDiscardPhase = false;

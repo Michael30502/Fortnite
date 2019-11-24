@@ -2,7 +2,7 @@
     "id": "0485b3a1-e138-4ff8-aeb6-0af5b62fc645",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "Mathilde_Dance",
+    "name": "mathildeDance",
     "For3D": false,
     "HTile": false,
     "VTile": false,

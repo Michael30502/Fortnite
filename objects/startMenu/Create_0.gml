@@ -8,7 +8,7 @@ globalvar cpuAvatar;
 cpuAvatar = haliphaDance;
 cardFront = cardS;
 cardBack = cardBackS;
-avatar = theoDance;
+avatar = christianDance;
 // Her setter vi størrelsen på hvores GUI og vores menu
 gui_width = display_get_gui_width();
 gui_height = display_get_gui_height();

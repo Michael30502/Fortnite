@@ -2,7 +2,7 @@
     "id": "6307dea1-103f-4840-9843-6b73f8b270b4",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "Tobias_Dance",
+    "name": "tobiasDance",
     "For3D": false,
     "HTile": false,
     "VTile": false,

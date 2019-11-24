@@ -2,6 +2,19 @@
 // You can write your code in this editor
 
 //giver turen videre hvis det er computerens tur
+
+if(playerTurn == false)and (startUpPhase = false)and (counter <= 0){
+cpuDrawPhase = true;
+counter = 0;
+}
+
+if(cpuDrawPhase)
+{
+
+}
+
+
+
 if (playerTurn == false)
 if (startUpPhase == true){
 i=1;
@@ -31,3 +44,7 @@ mulliganPhase = true;
 playerTurn = true;
 image_index = 5;
 }
+
+//if(cpuDrawPhase)
+
+counter -= 1;

@@ -58,7 +58,7 @@
             "Key": "0485b3a1-e138-4ff8-aeb6-0af5b62fc645",
             "Value": {
                 "id": "87ddcb49-4d27-4332-95a7-bedae4172881",
-                "resourcePath": "sprites\\Mathilde_Dance\\Mathilde_Dance.yy",
+                "resourcePath": "sprites\\mathildeDance\\mathildeDance.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -82,7 +82,7 @@
             "Key": "08367571-c4c7-4b20-8185-acd8402c6b8e",
             "Value": {
                 "id": "e8f9bf19-c938-49d8-82af-aeb6e6ed49d0",
-                "resourcePath": "sprites\\Marco_Dance\\Marco_Dance.yy",
+                "resourcePath": "sprites\\marcoDance\\marcoDance.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -146,7 +146,7 @@
             "Key": "22bbc304-6fb8-4cba-a294-4c4eeb5c7b2e",
             "Value": {
                 "id": "f1d6bef2-0859-48d9-8ebe-a74c9df1b5e7",
-                "resourcePath": "sprites\\Christan_Dance\\Christan_Dance.yy",
+                "resourcePath": "sprites\\christianDance\\christianDance.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -282,7 +282,7 @@
             "Key": "584f08d5-ed6d-4358-bd7d-9bb53ef43e74",
             "Value": {
                 "id": "c73e0a48-5144-4d1b-9124-f7249754cf2d",
-                "resourcePath": "sprites\\Beck_JR\\Beck_JR.yy",
+                "resourcePath": "sprites\\beckJrDance\\beckJrDance.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -298,7 +298,7 @@
             "Key": "61beb4a2-ac40-48af-be09-ab699eefc5f0",
             "Value": {
                 "id": "a5da4bc4-71d1-4930-8b04-c68bfe51ac9c",
-                "resourcePath": "sprites\\Anders_Dance\\Anders_Dance.yy",
+                "resourcePath": "sprites\\andersDance\\andersDance.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -314,8 +314,16 @@
             "Key": "6307dea1-103f-4840-9843-6b73f8b270b4",
             "Value": {
                 "id": "9b244238-7f88-463b-9800-f062fd3daf04",
-                "resourcePath": "sprites\\Tobias_Dance\\Tobias_Dance.yy",
+                "resourcePath": "sprites\\tobiasDance\\tobiasDance.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "65b7fb93-d6f7-4902-8a24-947f556057af",
+            "Value": {
+                "id": "524403b0-7d1c-45cb-b594-017dbfb9d461",
+                "resourcePath": "scripts\\cpuDrawCard\\cpuDrawCard.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -602,7 +610,7 @@
             "Key": "ccb95397-aa57-4d4e-8cdf-63a224b01be2",
             "Value": {
                 "id": "be07f256-1e3b-4617-b9c4-6b21801afda6",
-                "resourcePath": "sprites\\Beck_Dance\\Beck_Dance.yy",
+                "resourcePath": "sprites\\beckDance\\beckDance.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -666,7 +674,7 @@
             "Key": "e13a1fe9-6dcf-4cbe-949b-4d42e54efe54",
             "Value": {
                 "id": "60992436-8b03-4b7d-8a56-2ab97627d22b",
-                "resourcePath": "sprites\\Thomas_Dance\\Thomas_Dance.yy",
+                "resourcePath": "sprites\\thomasDance\\thomasDance.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -723,7 +731,8 @@
         "43d86462-7485-4f75-b6eb-e22a122751ad",
         "bc1d60eb-b728-4f3a-94c3-1c19f5588f7e",
         "2cb43860-a746-429f-aad8-fc6fc859f30a",
-        "52d0447d-365e-4dcf-a4fb-08aea368350d"
+        "52d0447d-365e-4dcf-a4fb-08aea368350d",
+        "65b7fb93-d6f7-4902-8a24-947f556057af"
     ],
     "tutorial": ""
 }

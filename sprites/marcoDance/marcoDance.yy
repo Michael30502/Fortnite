@@ -2,7 +2,7 @@
     "id": "08367571-c4c7-4b20-8185-acd8402c6b8e",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "Marco_Dance",
+    "name": "marcoDance",
     "For3D": false,
     "HTile": false,
     "VTile": false,

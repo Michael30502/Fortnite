@@ -42,6 +42,15 @@ if(cpuA)
 switch cpuAvatar{
 case haliphaDance: image_index = 55; break;
 case theoDance:image_index = 1; break;
+case tobiasDance:image_index = 1; break;
+case thomasDance: image_index = 1 ; break;
+case mathildeDance: image_index = 1; break;
+case beckDance: image_index = 1; break;
+case andersDance: image_index =1; break;
+case christianDance: image_index = 1; break;
+case marcoDance: image_index = 1 ; break;
+case beckJrDance:image_index = 1; break;
+
 
 default:image_index = 0;break;
 }
@@ -50,6 +59,14 @@ if(cpuA== false)
 switch avatar{
 case haliphaDance: image_index = 55; break;
 case theoDance:image_index = 1; break;
+case tobiasDance:image_index = 1; break;
+case thomasDance: image_index = 1 ; break;
+case mathildeDance: image_index = 1; break;
+case beckDance: image_index = 1; break;
+case andersDance: image_index =1; break;
+case christianDance: image_index = 1; break;
+case marcoDance: image_index = 1 ; break;
+case beckJrDance:image_index = 1; break;
 
 default:image_index = 0;break;
 }
