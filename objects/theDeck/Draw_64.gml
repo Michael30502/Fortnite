@@ -21,7 +21,7 @@ counter +=1;
 counter = 1
 while(counter<=cpuHandCount){
 	owner = "cpu";
-instance_create_layer((room_width-700+((cpuHandCount+counter)*50)),room_height/20,"Layer",card);
+instance_create_layer((room_width-200)-(((cpuHandCount-counter)*50)),room_height/20,"Layer",card);
 counter +=1;
 }
 handUpdated = false;

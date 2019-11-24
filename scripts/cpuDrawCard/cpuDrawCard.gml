@@ -12,4 +12,4 @@ cpuHand[cpuHandCount] = cardPicked;
 lastCardDrawn = cardPicked;
 cpuHandCount+=1;
 cardPicked= 0;
-theDeck.handUpdated = true;
+theDeck.cpuHandUpdate = true;

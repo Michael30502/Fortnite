@@ -18,8 +18,10 @@ action=true;
 buildSpace.rested = false;
 if(theDeck.start == true)
 drawPhase = true;
-else
+else{
 playerTurn = false;
+cpu.cpuStart =true;
+}
 }
 
 if(discardPhase ==true) and (playerHandCount <= 5){
@@ -27,6 +29,7 @@ if(discardPhase ==true) and (playerHandCount <= 5){
 playerTurn = false;
 discardPhase = false;
 image_index =7;
+cpu.cpuStart =true;
 }
 
 if(actionPhase) and (numCardSelected == 0){

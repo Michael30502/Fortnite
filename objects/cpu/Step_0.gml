@@ -3,15 +3,44 @@
 
 //giver turen videre hvis det er computerens tur
 
-if(playerTurn == false)and (startUpPhase = false)and (counter <= 0){
+if(playerTurn == false)and (startUpPhase = false)and (counter <= 0) and (cpuStart = true){
 cpuDrawPhase = true;
 counter = 0;
+cpuStart = false;
+drawPhaseStart = true;
 }
 
-if(cpuDrawPhase)
-{
+if(cpuDrawPhase){
+	if(drawPhaseStart == true)
+cpuCardDraw +=1
+
+useCpuAce = true;
+while (cpuCardDraw != 0){
 cpuDrawCard();
-cpuDrawPhase = false;
+cpuCardDraw-=1;
+
+}
+
+
+drawPhaseStart = false;
+
+}
+
+if(useCpuAce == false and cpuDrawPhase == true and (drawPhaseStart = false) and (counter <= 0))
+{
+	cpuDrawPhase = false
+	cpuBuildPhase = true;
+	
+	}
+
+if(cpuBuildPhase){
+if (cpuRoof)
+buildRoof = true;
+else if(cpuStairs)
+buildStairs = true;
+else if(cpuWall)
+buildWall = true;
+
 }
 
 
@@ -20,22 +49,8 @@ if (playerTurn == false)
 if (startUpPhase == true){
 i=1;
 while(i<=5){
-cardPicked= 0;
-//Holderværdien der bliver brugt til at anmærke det tilfældige kort
-randomCard=0
-	//Chooces a random card that is in the deck removes it from the deck array and puts it into the player hand
-while(cardPicked == 0){
-	randomCard = irandom_range(0,51)
-cardPicked = theDeck.aDeck[randomCard];
-draw= true;
-}
-theDeck.aDeck[randomCard]=0
-cpuHand[cpuHandCount] = cardPicked;
-lastCardDrawn = cardPicked;
-cpuHandCount+=1;
-cardPicked= 0;
-theDeck.handUpdated = true;
-i+=1
+cpuDrawCard();
+i+=1;
 }
 	
 	

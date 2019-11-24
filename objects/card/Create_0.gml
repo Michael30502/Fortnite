@@ -7,7 +7,7 @@ globalvar mBulletSelected;
 globalvar hBulletSelected;
 
 
-
+cpuAce =  false;
 chest = false;
 trap = false;
 trapUsed = false;

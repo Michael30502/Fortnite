@@ -194,3 +194,73 @@ else
 selected = false;
 numCardSelected -=1;
 }}
+
+
+
+if(owner == "cpu"){
+
+if(chest){
+cpuAce = true;
+if(useCpuAce){
+if(rarity == "uncommon"){
+cpuCardDraw =+ 1;
+
+deleteCpuCard();
+}
+if(rarity == "rare" ){
+cpuCardDraw += 2;
+deleteCpuCard();
+}
+else if(rarity == "epic"){
+cpuCardDraw +=3;
+
+deleteCpuCard();
+}
+else if(rarity == "legendary"){
+cpuCardDraw +=4;
+
+deleteCpuCard();
+}
+
+
+useCpuAce = false;
+}
+}
+if(trap)
+cpuTrap = true;
+if(grenade)
+cpuGrenade = true;
+if(healing)
+cpuHealing = true;
+if(wall)
+cpuWall = true;
+if(roof){
+cpuRoof = true;
+if (buildRoof ==true){
+	if(rarity == uncommon)
+builderRarity = 1;
+if(rarity = rare)
+builderRarity = 2;
+if(rarity = epic)
+builderRarity =3;
+}
+
+}
+if(stairs)
+cpuStairs = true;
+if(sBullet)
+cpuSBullet = true;
+if(mBullet)
+cpuMBullet = true;
+if(hBullet)
+cpuHBullet = true;
+if(pistol)
+cpuPistol = true;
+if(assaultRifle)
+cpuAssaultRifle = true;
+if(sniper)
+cpuSniper = true;
+
+
+}
+

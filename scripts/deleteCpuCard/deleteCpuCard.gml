@@ -21,6 +21,7 @@ break;
 }
 i+=1;
 }
+cpuHandCount-=1;
 theDeck.cpuHandUpdate = true;
 discardPileUpdated = true;
 instance_destroy(id); 

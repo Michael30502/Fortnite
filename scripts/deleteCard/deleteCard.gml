@@ -21,6 +21,7 @@ break;
 }
 i+=1;
 }
+
 theDeck.playerHandUpdate = true;
 discardPileUpdated = true;
 instance_destroy(id); 
