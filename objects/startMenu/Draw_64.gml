@@ -4,7 +4,7 @@
 draw_set_font(fMenu);
 draw_set_halign(fa_right);
 draw_set_valign(fa_bottom);
-draw_text(300,300,kortMenuCursor);
+draw_text(300,300,menuCursorA);
 for (var i = 0; i < menu_items; i++)
 
 {
@@ -49,10 +49,13 @@ for (var i = 0; i < menu_itemsS; i++)
 	draw_set_color(col);
 	draw_text(xx,yy,txt);
 }
-
+//kortmenu
 for(var i=0; i<array_length_1d(spriteArray); i+=1){
 		 draw_sprite(spriteArray[i], 0, xArray[i], yArray[i]);
 	}
+
+
+	
 	
 //credits
 if(menuControlC == true){
