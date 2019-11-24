@@ -10,10 +10,40 @@ progressButtonPressed = false;
 }
 
 if (mulliganPhase) and(mulliganSecondPhase == false) and (owner == "player")
-selectable = true
+selectable = true;
 
-if(card.trapType1) and (actionPhase) and (owner == "cpu") and (numCardSelected ==1)
-selectable = true
+if(theDeck.trapType1) and (actionPhase) and (owner == "cpu") and (numCardSelected ==1){
+selectable = true;
+
+if(id == gameMaster.cardPoint)and (mouse_check_button_pressed(mb_left)){
+trapUsed = true;
+if(trapNumber == 1){
+deleteCpuCard();
+cpuHandCount -=1;
+}
+if(trapNumber ==3)
+{
+i= 0;
+while (i<52){
+if cpuHand[i] == cardValue{
+cpuHand[i] = -1;
+break;
+}
+i+=1
+}
+	if(theDeck.playerHand[playerHandCount] == 0){
+theDeck.playerHand[playerHandCount] =cardValue;
+	playerHandCount +=1
+	}
+
+theDeck.cpuHandUpdate = true;
+discardPileUpdated = true;
+cpuHandCount -=1;
+instance_destroy(id); 
+
+}
+}
+}
 
 //Game ender kortet når mulligan bliver aktiveret 
 if((selected)and (mulligan == false) and (mulliganPhase))and (owner == "player"){

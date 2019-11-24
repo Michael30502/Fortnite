@@ -39,26 +39,37 @@ if(chest)
 draw_text(x-50,y-250,"ACE")
 
 if(trap){
-draw_text(x-50,y-250,"Trap")
-if(selected)
-{
+if(selected){
+		if(trapUsed){
+	deleteCard();
+	playerHandCount -=1
+	numCardSelected-=1
+	selected = false;
+	
+	}
 if(rarity == uncommon) or (rarity == epic)
 {
-trapType1 = true;
+
+theDeck.trapType1 = true;
+	draw_text(200,200,(theDeck.trapType1 == true))
+	
+if(uncommon)
+trapNumber = 1
+
+if (epic)
+trapNumber = 3
+
 }
-if(rarity = rare) or (rarity == legendary)
+if(rarity == rare) or (rarity == legendary)
 {
 trapType2 = true
 }
 
 
-}
-else{
-	trapType1 = false;
-	trapType2 = false;
+} else if (numCardSelected == 0){
+	theDeck.trapType1 = false;
+	theDeck.trapType2 = false;
 	}
-
-
 }
 
 
