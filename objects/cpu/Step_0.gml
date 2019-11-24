@@ -10,7 +10,8 @@ counter = 0;
 
 if(cpuDrawPhase)
 {
-
+cpuDrawCard();
+cpuDrawPhase = false;
 }
 
 
