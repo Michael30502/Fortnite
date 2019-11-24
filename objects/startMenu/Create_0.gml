@@ -97,7 +97,7 @@ menuC[25] = "HOVED PROGRAMMØR";
 menuC[24] = "Vsovs Mikkel";
 menuC[23] = "PROGRAMMØR/PERSONAMASTER";
 menuC[22] = "Gokkebro";
-menuC[21] = "kort designere";
+menuC[21] = "Kort designere";
 menuC[20] = "Batman"
 menuC[19] = "Ukendt person"
 menuC[18] = "CEO/KOMMUNIKATION BOSS"
@@ -116,7 +116,7 @@ menuC[6] = "Thomas"
 menuC[5] = "Mathilde"
 menuC[4] = "Beck"
 menuC[3] = "Anders"
-menuC[2] = "´Christian"
+menuC[2] = "Christian"
 menuC[1] = "Marco"
 menuC[0] = "Beck Jr"
 

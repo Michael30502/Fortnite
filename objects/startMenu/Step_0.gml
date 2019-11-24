@@ -219,7 +219,6 @@ if(kortMenu ==true){
 if(avatarMenu ==true){
 	instance_create_depth(100,100,0,menuCreator);
 	
-	
 	if(keyboard_check_pressed(vk_left)){
 		menuCursorA --;
 		if(menuCursorA<0) menuCursorA = 9;
@@ -233,6 +232,28 @@ if(avatarMenu ==true){
 		menuControlS = false;
 	}
 	
+	
+	if(keyboard_check_pressed(vk_backspace)){
+	switch(menuCursorA){
+	case 0:	cpuAvatar = haliphaDance; break;
+	case 1:	cpuAvatar = theoDance;break;
+	case 2: cpuAvatar = tobiasDance;break;
+	case 3: cpuAvatar = thomasDance;break;
+	case 4: cpuAvatar = mathildeDance;break;
+	case 5: cpuAvatar = beckDance;break;
+	case 6: cpuAvatar = andersDance;break;
+	case 7:	cpuAvatar = christianDance; break;
+	case 8: cpuAvatar = marcoDance;break;
+	case 9: cpuAvatar = beckJrDance;break;
+
+	}
+			menu_control = true;
+		avatarPositionX = -200;
+		menu_x_target = gui_width-gui_margin;
+		menuCursorA = 10;
+		avatarMenu = false;
+	}
+
 	if(keyboard_check_pressed(vk_enter)&&menuCursorA==0){
 		menu_control = true;
 		avatarPositionX = -200;
@@ -313,12 +334,12 @@ if(avatarMenu ==true){
 		avatarMenu = false;
 		avatar = beckJrDance;
 	}
-	
-}
+	}
+
 
 //credits
 if (menuControlC ==true){
-menu_yC += (menu_y_targetC - menu_yC) / menu_speedC;
+menu_yC += ((menu_y_targetC - menu_yC) / menu_speedC);
 
 	if(keyboard_check_pressed(vk_backspace)){
 	menuControlC = false; 
@@ -329,6 +350,6 @@ menu_yC += (menu_y_targetC - menu_yC) / menu_speedC;
 }
 
 if(menuControlC == false){
-	menu_yC = 5000;
+	menu_yC = 7000;
 
 }

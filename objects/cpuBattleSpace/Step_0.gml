@@ -13,7 +13,7 @@ if(buildSpace3){
 if (buildRoof ==true)
 {
 	
-cpuBuild();
+//cpuBuild();
 
 }
 }
