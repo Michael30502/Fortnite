@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "049ee4c2-fe03-4f00-8334-9ccc6d2ac956",
+            "Value": {
+                "id": "449a345b-326e-4d4b-a1f4-d43bd6f87ee5",
+                "resourcePath": "objects\\anders\\anders.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0638376e-ebd2-44f1-b30d-095946f6edc9",
             "Value": {
                 "id": "41db4ec5-42b9-4662-908e-ab00e42a67ca",
@@ -95,6 +103,14 @@
             }
         },
         {
+            "Key": "08f7af6f-53b7-49e9-bb14-7ce236a40038",
+            "Value": {
+                "id": "fb44221b-7957-49bb-9fab-aaa156945b8d",
+                "resourcePath": "sprites\\fortniteBacks1Chosen\\fortniteBacks1Chosen.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0ab5978a-4b87-4ec7-9de2-5bba16331a7d",
             "Value": {
                 "id": "977770cd-8055-4580-b313-2b1f9d1b911c",
@@ -111,6 +127,14 @@
             }
         },
         {
+            "Key": "14a143f5-63bb-4b70-aba8-14d29c45f0b6",
+            "Value": {
+                "id": "e3cce499-b7ae-424f-8d75-02b6640331d8",
+                "resourcePath": "sprites\\fortniteBack1\\fortniteBack1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "178e10ec-c86e-44ad-9528-894c4aa55221",
             "Value": {
                 "id": "d23dff4c-a93a-4283-b8df-7e00c4d8c389",
@@ -119,11 +143,11 @@
             }
         },
         {
-            "Key": "1bb8072d-7e11-4485-918f-02b81c0ac4de",
+            "Key": "1a7f8cd2-84e7-4a50-861b-0e59076b456b",
             "Value": {
-                "id": "ac2b5470-aa13-48df-bbbd-1c61fd95775a",
-                "resourcePath": "scripts\\cpuBuild\\cpuBuild.yy",
-                "resourceType": "GMScript"
+                "id": "6f099ccc-15ad-4243-a908-dfa37608aa07",
+                "resourcePath": "sprites\\fortniteCards\\fortniteCards.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -263,6 +287,14 @@
             }
         },
         {
+            "Key": "4fa330d5-947d-41a5-8c8b-1b760616123c",
+            "Value": {
+                "id": "36866819-f4a2-4b79-b6de-1a626f260674",
+                "resourcePath": "objects\\theo\\theo.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "519802be-b045-43bc-ad65-fa55f290b389",
             "Value": {
                 "id": "beae9b9d-b3f8-4493-95d9-fd36d17333ee",
@@ -284,6 +316,14 @@
                 "id": "6512aa39-0bab-474f-ba97-d7c2261cf156",
                 "resourcePath": "scripts\\deleteCpuCard\\deleteCpuCard.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "54d3f2cf-5949-441d-b4f0-5390087ddf3f",
+            "Value": {
+                "id": "c3274849-278c-43c5-a45d-24aec3740149",
+                "resourcePath": "sprites\\fortniteCardsChosen\\fortniteCardsChosen.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -343,11 +383,35 @@
             }
         },
         {
+            "Key": "69651990-ff31-4605-811c-fe225ba49dbf",
+            "Value": {
+                "id": "b288b66f-f16c-4b9e-bc33-84a6fd9145e0",
+                "resourcePath": "objects\\beckJr\\beckJr.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6c8b6928-0b5c-4db2-88e7-6441c02b1e3d",
+            "Value": {
+                "id": "7da033f2-1d1c-4f4f-84ed-b7926baf47b1",
+                "resourcePath": "objects\\thomas\\thomas.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6e733057-0188-4ea8-bfe3-10d128f806fe",
             "Value": {
                 "id": "e69886b4-17a7-4b8e-bd8c-841a2871e423",
                 "resourcePath": "rooms\\room0\\room0.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "72534667-4a13-435b-ad92-aa9b56f41972",
+            "Value": {
+                "id": "65d63a64-72fc-4ee5-8cfe-ba2b26d11bc2",
+                "resourcePath": "objects\\marco\\marco.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -388,6 +452,14 @@
                 "id": "8bbcc3e2-343a-4b05-b4a5-b0ba27d7f64c",
                 "resourcePath": "sprites\\sprite9\\sprite9.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "83734b67-7ad9-4f74-8deb-5cf896448a34",
+            "Value": {
+                "id": "dbde3da8-f033-42f3-b1a8-9adac1fcde51",
+                "resourcePath": "views\\83734b67-7ad9-4f74-8deb-5cf896448a34.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -439,6 +511,22 @@
             }
         },
         {
+            "Key": "99c7dc0c-e17b-4f36-ac0c-4cee2bcd9ad7",
+            "Value": {
+                "id": "af4b744c-e9ac-442d-a5a0-805f45ea2058",
+                "resourcePath": "objects\\tobias\\tobias.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a548e535-ce8e-4cc8-af2c-c8f5564cf44d",
+            "Value": {
+                "id": "6813b5c2-04eb-4bed-b303-95852550539f",
+                "resourcePath": "sprites\\fortniteBacks2Chosen\\fortniteBacks2Chosen.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a85855cb-e7a2-49e9-a30b-fbde4030dbed",
             "Value": {
                 "id": "536d650f-e199-4b91-af38-dd0af5a214bd",
@@ -460,6 +548,14 @@
                 "id": "9bf554ef-31de-45ca-a19c-82f0180f5478",
                 "resourcePath": "views\\a9658d4f-b48a-43af-b011-8a61e66922d8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a96a1353-4d4e-458e-bbf9-807d36417009",
+            "Value": {
+                "id": "1dab3e55-c108-4a67-907a-1f95e6b88a8a",
+                "resourcePath": "objects\\christian\\christian.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -575,6 +671,14 @@
             }
         },
         {
+            "Key": "c26ff831-429b-401b-94ed-ab9b29d53117",
+            "Value": {
+                "id": "8ab054b4-ca17-48e2-9f69-b26f678e3076",
+                "resourcePath": "sprites\\fortniteBack2\\fortniteBack2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c68ee0b9-2fe6-45f1-a911-da1cc0631d55",
             "Value": {
                 "id": "8c8f4ee1-d868-4554-822e-075bfb7740a6",
@@ -639,6 +743,22 @@
             }
         },
         {
+            "Key": "cfa4502c-9f8c-4e27-a436-1457fc38b3be",
+            "Value": {
+                "id": "b1b2883f-3bff-4ce0-b23f-9f8c4d12a299",
+                "resourcePath": "objects\\menuCreator\\menuCreator.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d08c2dc4-0661-4e0f-8f22-6f396ed2ead6",
+            "Value": {
+                "id": "8f38a4a1-a7e5-4cd2-88cb-6bca92990860",
+                "resourcePath": "objects\\beck\\beck.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d4811949-3792-4693-847e-de305bdb95ea",
             "Value": {
                 "id": "2469adf4-ba2e-46f3-9d54-886bc0e6127f",
@@ -684,6 +804,14 @@
                 "id": "60992436-8b03-4b7d-8a56-2ab97627d22b",
                 "resourcePath": "sprites\\thomasDance\\thomasDance.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e2ed4dbb-6a50-41ac-8802-91b48563f24d",
+            "Value": {
+                "id": "e03ce68a-ed90-4f7e-beb0-be1c6e8a1167",
+                "resourcePath": "objects\\mathilde\\mathilde.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -733,6 +861,14 @@
                 "resourcePath": "views\\f5f9be87-a5f0-4ba3-8938-5a0800c26293.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "fa6e8c9e-4825-4ff8-8619-59500922fed6",
+            "Value": {
+                "id": "61478d69-1086-4d3a-a05d-1af77d367ce6",
+                "resourcePath": "objects\\halipha\\halipha.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "script_order": [
@@ -740,8 +876,7 @@
         "bc1d60eb-b728-4f3a-94c3-1c19f5588f7e",
         "2cb43860-a746-429f-aad8-fc6fc859f30a",
         "52d0447d-365e-4dcf-a4fb-08aea368350d",
-        "65b7fb93-d6f7-4902-8a24-947f556057af",
-        "1bb8072d-7e11-4485-918f-02b81c0ac4de"
+        "65b7fb93-d6f7-4902-8a24-947f556057af"
     ],
     "tutorial": ""
 }
