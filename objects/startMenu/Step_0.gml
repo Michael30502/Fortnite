@@ -129,3 +129,4 @@ menu_yC += (menu_y_targetC - menu_yC) / menu_speedC;
 	}
 	
 }
+if(menuControlC == false) menu_yC = 5000;

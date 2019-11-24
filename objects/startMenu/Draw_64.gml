@@ -91,5 +91,5 @@ if(menuControlC == true){
 	draw_sprite(nacho,0,400,900);
 	draw_sprite(nacho,0,400,1000);
 	draw_sprite(nacho,0,400,1100);
-	
+	draw_text(1700,1000,"backspace to exit")
 }
