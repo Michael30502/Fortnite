@@ -2,6 +2,12 @@
 // You can write your code in this editor
 globalvar trapNumber;
 globalvar trapUsed;
+globalvar sBulletSelected;
+globalvar mBulletSelected;
+globalvar hBulletSelected;
+
+
+
 chest = false;
 trap = false;
 trapUsed = false;
@@ -16,6 +22,10 @@ hBullet = false;
 pistol = false;
 assaultRifle = false;
 sniper= false;
+
+sBulletSelected = false;
+mBulletSelected = false;
+hBulletSelected = false;
 
 
 rarity = -1;

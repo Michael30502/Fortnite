@@ -36,6 +36,12 @@ globalvar cpuHand;
 globalvar boogieBomb;
 globalvar stinkBomb;
 globalvar smokeBomb;
+globalvar mShotUsed;
+globalvar sShotUsed;
+
+mShotUsed = true
+sShotUsed = true
+
 
 cpuHealth = 100;
 playerHealth = 100;

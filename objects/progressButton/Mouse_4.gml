@@ -15,16 +15,18 @@ mulliganPhase = false;
 superAction = true;
 buildAction = true;
 action=true;
+buildSpace.rested = false;
 if(theDeck.start == true)
 drawPhase = true;
 else
 playerTurn = false;
 }
 
-if(discardPhase ==true) and (playerHandCount > 5){
+if(discardPhase ==true) and (playerHandCount <= 5){
 	
 playerTurn = false;
 discardPhase = false;
+image_index =7;
 }
 
 if(actionPhase) and (numCardSelected == 0){

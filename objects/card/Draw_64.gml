@@ -47,7 +47,7 @@ if(selected){
 	selected = false;
 	
 	}
-if(rarity == uncommon) or (rarity == epic)
+if(rarity == "uncommon") or (rarity == "epic")
 {
 
 theDeck.trapType1 = true;
@@ -60,18 +60,17 @@ if (epic)
 trapNumber = 3
 
 }
-if(rarity == rare) or (rarity == legendary)
+if(rarity == "rare") or (rarity == "legendary")
 {
 trapType2 = true
 }
 
 
-} else if (numCardSelected == 0){
+}
+	} else if (numCardSelected == 0){
 	theDeck.trapType1 = false;
 	theDeck.trapType2 = false;
 	}
-}
-
 
 if(grenade){
 draw_text(x-50,y-250,"Grenade")
@@ -80,18 +79,27 @@ if(uncommon) and (selected) and (discardPilePressed){
 cpuHealth -= 40;
 audio_play_sound(Granat,1,false)
 discardPilePressed = false;
+action = false;
+numCardSelected = 0;
+playerHandCount -= 1;
 deleteCard();
 }
 
 if (rare)and (selected) and (discardPilePressed){
 stinkBomb = true;
 discardPilePressed = false;
+action = false;
+numCardSelected = 0;
+playerHandCount -= 1;
 deleteCard();
 }
 
 if(epic)and (selected) and (discardPilePressed){
 smokeBomb = true;
 discardPilePressed = false;
+action = false;
+numCardSelected = 0;
+playerHandCount -= 1;
 deleteCard();
 }
 
@@ -99,6 +107,9 @@ if (legendary)and (selected) and (discardPilePressed){
 boogieBomb = true;
 audio_play_sound(Disco,1,false)
 discardPilePressed = false;
+action = false;
+numCardSelected = 0;
+playerHandCount -= 1;
 deleteCard();
 }
 
@@ -110,7 +121,7 @@ if(healing){
 draw_text(x-50,y-250,"Healing")
 if(selected){
 
-if(rarity == uncommon)and (discardPilePressed)
+if(rarity == "uncommon")and (discardPilePressed)
 {
 audio_play_sound(Splash,1,false);
 playerHealth +=20;
@@ -123,7 +134,7 @@ healthDiffrence = 0
 deleteCard();
 }
 
-if(rarity == rare)and (discardPilePressed)
+if(rarity == "rare")and (discardPilePressed)
 {audio_play_sound(Drik,1,false)
 
 playerShield +=25;
@@ -134,7 +145,7 @@ deleteCard();
 }
 
 
-if(rarity == epic )and (discardPilePressed)
+if(rarity == "epic" )and (discardPilePressed)
 {
 audio_play_sound(Med_kit,1,false)
 
@@ -145,7 +156,7 @@ deleteCard();
 
 }
 
-if (rarity == legendary)and (discardPilePressed)
+if (rarity == "legendary")and (discardPilePressed)
 {
 {
 audio_play_sound(Drik,1,false)
@@ -190,8 +201,7 @@ buildingSpace2Available = false;
 
 if(roof){
 draw_text(x-50,y-250,"Roof")
-if(buildingPhase and selected)
-{
+if(buildingPhase and selected){
 	buildSpace.builderCard = cardValue;
 	buildSpace.builderCardType = roof;
 	buildSpace.builderRarity = rarity;
@@ -203,14 +213,61 @@ buildingSpace3Available = false;
 
 
 
-if(sBullet)
+if(sBullet){
 draw_text(x-50,y-250,"Small bullet")
+if (selected){
+sBulletSelected = true;
 
-if(mBullet)
+if(sShot){
+numCardSelected -=1;
+playerHandCount -=1;
+sShotUsed = true;
+sShot = false;
+sBulletSelected = false;
+selected = false;
+deleteCard();
+}
+
+}
+}else if(numCardSelected == 0 )
+sBulletSelected = false;
+
+
+if(mBullet){
 draw_text(x-50,y-250,"Medium bullet")
+if (selected){
+mBulletSelected = true;
+if(mShot){
+numCardSelected -=1;
+playerHandCount -=1;
+mShotUsed = true;
+mShot = false;
+mBulletSelected = false;
+selected = false;
+deleteCard();
+}
+}
+}else if(numCardSelected == 0 )
+mBulletSelected = false;
 
-if(hBullet)
+
+if(hBullet){
 draw_text(x-50,y-250,"Heavy bullet")
+if (selected){
+
+hBulletSelected = true;
+
+if(heavyShot){
+numCardSelected -=1;
+playerHandCount -=1;
+heavyShot = false;
+hBulletSelected = false;
+selected = false;
+deleteCard();
+}
+}
+}else if(numCardSelected == 0 )
+hBulletSelected = false;
 
 if(pistol){
 draw_text(x-50,y-250,"Pistol")

@@ -11,11 +11,13 @@ theDeck.discardPile[i2] =cardValue;
 	}}
  sprite_index = cardFront;
  cardValue = builderCard;
- rarity = builderRarity;
  image_index =cardValue;
+ rarity = builderRarity;
    weaponSpace1Available = false;
    weaponSpace2Available = false;
    weaponSpace3Available = false;
 weaponActivate = true;
 buildingSpaceUsed = true;
+rested = true;
+
  }

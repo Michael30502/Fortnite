@@ -5,11 +5,14 @@ if(progressButtonPressed == true)
 {
 card.selected = false;
 card.selectable = false;
-numCardSelected = 0 ;
+numCardSelected = 0;
 progressButtonPressed = false;
 }
 
 if (mulliganPhase) and(mulliganSecondPhase == false) and (owner == "player")
+selectable = true;
+
+if(discardPhase) and (owner == "player")
 selectable = true;
 
 if(theDeck.trapType1) and (actionPhase) and (owner == "cpu") and (numCardSelected ==1){
@@ -69,14 +72,7 @@ selected = false;
 deleteCard();
 }
 
-if((discardPhase)and (owner == "player"))
-{
-	if((playerHandCount-numCardSelected != 5))
-selectable = true;
-else
-selectable = false;
 
-}
 
 
 if(drawCard and selected){
@@ -121,7 +117,7 @@ if(actionPhase and selected and weaponActivate)
 	numCardSelected -= 1;
 playerHandCount -= 1;
 
-superAction = false;
+
 selected = false;
 deleteCard();
 }
@@ -148,10 +144,10 @@ case 12: sniper = true; break;
 
 switch ((cardValue+1) mod 4)
 {
-case 3:rare = true; rarity = rare; break;
-case 2:epic=true; rarity = epic; break;
-case 1:legendary =true; rarity = legendary; break;
-case 0:uncommon = true; rarity = uncommon; break;
+case 3:rare = true; rarity = "rare"; break;
+case 2:epic=true; rarity = "epic"; break;
+case 1:legendary =true; rarity = "legendary"; break;
+case 0:uncommon = true; rarity = "uncommon"; break;
 }
 
 //Kort funktioner 
@@ -176,13 +172,20 @@ selectable = true;
 if ((id == gameMaster.cardPoint)and (mouse_check_button_pressed(mb_left)) and ((selectable))){
 if(selected==false)
 {	
-	if(buildingPhase == actionPhase)
+	if(buildingPhase == actionPhase and discardPhase == actionPhase)
 	{
 selected = true;
 numCardSelected+=1;
 	}
-	else if(numCardSelected ==0)
-	{selected = true;
+	else if(discardPhase){
+		if((playerHandCount-numCardSelected != 5)){
+			selected = true
+		numCardSelected += 1 
+	}
+
+	}
+	else if(numCardSelected ==0){
+		selected = true;
 numCardSelected+=1;
 }
 }

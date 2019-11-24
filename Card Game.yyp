@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "33ff13db-5c85-4cb2-94ff-ae726326d506",
+            "Value": {
+                "id": "aed48fdb-8382-4ca9-9218-2f3b522793f4",
+                "resourcePath": "sprites\\Super_bord_nu_bedre_end_nogensinde\\Super_bord_nu_bedre_end_nogensinde.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "364fa06f-9688-46a7-b63f-2d7f209a1495",
             "Value": {
                 "id": "8f86f924-7d80-4f20-a791-8c6bb1e951c5",
@@ -244,6 +252,14 @@
                 "id": "6512aa39-0bab-474f-ba97-d7c2261cf156",
                 "resourcePath": "scripts\\deleteCpuCard\\deleteCpuCard.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "5bac5c80-a1f7-44ff-8cda-1d3278772cec",
+            "Value": {
+                "id": "2fde55b3-33e8-4b7a-ac71-e5cee0b0f894",
+                "resourcePath": "objects\\cpuBattleSpace\\cpuBattleSpace.yy",
+                "resourceType": "GMObject"
             }
         },
         {

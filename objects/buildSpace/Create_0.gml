@@ -7,6 +7,13 @@ globalvar weaponSpace1Available
 globalvar weaponSpace2Available;
 globalvar weaponSpace3Available;
 globalvar weaponActivate;
+globalvar selectedWeaponRarity;
+globalvar weaponSpace1Selected;
+globalvar weaponSpace2Selected;
+globalvar weaponSpace3Selected;
+
+
+
 
 globalvar buildActivate;
 
@@ -20,14 +27,24 @@ buildingSpace1Available = false;
  weaponSpace2Available = false;
  weaponSpace3Available = false;
 
+rested = false;
+selected = false;
 
 builderCard = -1;
 builderRarity = -1;
 builderCardType = -1;
-
+rarity = 0;
 weaponSpace1 = false;
 weaponSpace2 = false;
 weaponSpace3 = false;
+
+
+selectedWeaponRarity = 0;
+
+weaponSpace1Selected = false
+weaponSpace2Selected = false
+weaponSpace3Selected =false
+
 
 buildSpace1 = false;
 buildSpace2 = false;

@@ -1,5 +1,30 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+globalvar sShot;
+globalvar mShot;
+globalvar heavyShot;
+
+sShot = false;
+mShot = false;
+heavyShot = false;
+
+pistol1Dam = 25;
+pistol2Dam = 35;
+pistol3Dam = 45;
+pistol4Dam = 55;
+
+
+assault1Dam = 40;
+assault2Dam = 50;
+assault3Dam = 60;
+assault4Dam = 70;
+
+sniper1Dam = 70;
+sniper2Dam = 80;
+sniper3Dam = 90;
+sniper4Dam = 100;
+
 if (y< 500)
 cpuA = true;
 else 
