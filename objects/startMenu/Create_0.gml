@@ -26,7 +26,7 @@ menu_committed = -1;
 menu_control = true;
 menu[2] = "Start";
 menu[1] = "Skins";
-menu[0] = "Options";
+menu[0] = "credits";
 
 
 menu_items = array_length_1d(menu)
@@ -42,7 +42,7 @@ menu_yS = gui_heightS - gui_marginS;
 menu_x_targetS = gui_widthS-gui_marginS;
 menu_speedS = 25; //lower is faster
 
-// her er De mulighedder man har at klikke på
+// her er De mulligheder man har at klikke på
 menu_itemheightS = font_get_size(fMenu);
 menu_committedS = -1;
 menuControlS = false;
@@ -54,22 +54,45 @@ menuS[0] = "Back";
 menu_itemsS = array_length_1d(menuS)
 menu_cursorS = 3;
 
-
-kortMenu = true;
-
-if(kortMenu = true)
-{
-menu_committed = -1;
-menu_control = true;
+//variabler til kortmenu
+kortMenu = false;
+kortMenuCursor = 2;
 spriteArray[0] = cardS;
 spriteArray[1] = cardBackS;
 
-xArray[0] = 95; yArray[0] = 473;
-xArray[1] = 105; yArray[1] = 740;
-
+xArray[0] = -200; yArray[0] = 473;
+xArray[1] = -200; yArray[1] = 720;
+kortPositionX = 200
 menu_cursor =2;
 
 
 
+//variabler til credits
 
-}
+menu_xC =940;
+menu_yC = 5000;
+menu_y_targetC =-2000; 
+menu_speedC = 2000; //lower is faster
+menu_itemheightC = 200;
+menuC[16] = "Hoved programmør";
+menuC[15] = "Mikkel";
+menuC[14] = "programmør/persona master";
+menuC[13] = "Gokkebro";
+menuC[12] = "Kort designere";
+menuC[11] = "Batman"
+menuC[10] = "Ukendt person"
+menuC[9] = "CEO/kommunikations Boss"
+menuC[8] = "Christoffer Beck Ordrup"
+menuC[7] = "legende kommentarer"
+menuC[6] = "Marco #666"
+menuC[5] = "byggemand bob"
+menuC[4] = "Beckudrup"
+menuC[3] = "ide skaber og legendarisk gud til fortnite"
+menuC[2] = "Theo"
+menuC[1] = "dansman"
+menuC[0] = "MufasaKong"
+menuControlC =false;
+
+menu_itemC = array_length_1d(menuC)
+
+

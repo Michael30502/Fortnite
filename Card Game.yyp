@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "0bea9f8f-e9d2-4f43-bbe9-b5fb0fae63e1",
+            "Value": {
+                "id": "68bf77e3-9b42-4ad3-ae54-f40b8ff416bf",
+                "resourcePath": "views\\0bea9f8f-e9d2-4f43-bbe9-b5fb0fae63e1.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "178e10ec-c86e-44ad-9528-894c4aa55221",
             "Value": {
                 "id": "d23dff4c-a93a-4283-b8df-7e00c4d8c389",
@@ -287,6 +295,14 @@
             }
         },
         {
+            "Key": "865f1838-5c41-4393-bb36-c2dde2c09b1b",
+            "Value": {
+                "id": "6b6887c0-d1a5-4f54-be97-36dba0fc823c",
+                "resourcePath": "sprites\\nacho\\nacho.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "868c63ef-0625-4e5b-bbb9-83d63dcbc0af",
             "Value": {
                 "id": "2e367aad-ca36-411d-92ac-678c57fb8c12",
@@ -300,6 +316,14 @@
                 "id": "4d31ee50-8f91-4539-827e-e4f9977bbd61",
                 "resourcePath": "views\\87926661-371f-48f6-ad1b-d699f5a40de3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "91a8a545-fd67-4a78-9948-35aa4c760f17",
+            "Value": {
+                "id": "7603a315-d0a3-4b15-9401-1d40bf531433",
+                "resourcePath": "sprites\\NormalCardFrontChosen\\NormalCardFrontChosen.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -547,6 +571,14 @@
             "Value": {
                 "id": "cff7d282-b6f3-472a-9a64-d57d377768ce",
                 "resourcePath": "sprites\\epicBorderSprite\\epicBorderSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e9b0e12a-5725-4b6f-8337-58bcdd30cb56",
+            "Value": {
+                "id": "c29d99f4-df73-459e-8784-73d1e09a9d98",
+                "resourcePath": "sprites\\normalCardBackChosen\\normalCardBackChosen.yy",
                 "resourceType": "GMSprite"
             }
         },
