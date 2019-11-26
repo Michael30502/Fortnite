@@ -6,6 +6,16 @@
 
 
 //if (actionPhase != true or numCardSelected != 1)
+
+if(id== gameMaster.cardPoint) {
+while(y>room_height-room_height/20-150)
+y-=1;
+}
+else{
+while(y<= room_height-room_height/20)
+y+= 1
+}
+
 if (id == gameMaster.cardPoint) and (selected == false) and (thisCard == 1) and (selectable){
 draw_sprite(borderSpriteBlue,0,x,y);
 
@@ -242,8 +252,8 @@ numCardSelected -=1;
 playerHandCount -=1;
 mShotUsed = true;
 mShot = false;
-mBulletSelected = false;
 selected = false;
+mBulletSelected = false;
 deleteCard();
 }
 }
@@ -260,6 +270,7 @@ hBulletSelected = true;
 if(heavyShot){
 numCardSelected -=1;
 playerHandCount -=1;
+hShotUsed = true;
 heavyShot = false;
 hBulletSelected = false;
 selected = false;

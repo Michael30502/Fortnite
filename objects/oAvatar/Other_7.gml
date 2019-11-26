@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 
-
+if(boogieBomb ==false)
 if(cpuA)
 switch cpuAvatar{
 case haliphaDance: image_index = 55;

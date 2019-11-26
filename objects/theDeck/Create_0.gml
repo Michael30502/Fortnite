@@ -39,9 +39,12 @@ globalvar stinkBomb;
 globalvar smokeBomb;
 globalvar mShotUsed;
 globalvar sShotUsed;
-
-mShotUsed = true
-sShotUsed = true
+globalvar hShotUsed;
+hShotUsed = true;
+mShotUsed = true;
+sShotUsed = true;
+globalvar  boogieBomb;
+boogieBomb = false;
 
 
 cpuHealth = 100;

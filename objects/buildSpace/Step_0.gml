@@ -10,19 +10,19 @@ image_angle = 0;
 
 }
 
-if(weaponSpace1Selected)and(buildingSpaceUsed) and (sBulletSelected== false){
+if(sShotUsed)and(buildingSpaceUsed) and (sBulletSelected== false)and (weaponSpace1){
 selected = false;
 weaponSpace1Selected = false;
 
 }
 
-if(weaponSpace2Selected )and(buildingSpaceUsed) and (mBulletSelected== false){
+if(mShotUsed )and(buildingSpaceUsed) and (mBulletSelected== false)and (weaponSpace2){
 selected = false;
 weaponSpace2Selected = false;
 
 }
 
-if(weaponSpace3Selected)and(buildingSpaceUsed) and (hBulletSelected== false){
+if(hShotUsed)and(buildingSpaceUsed) and (hBulletSelected== false) and(weaponSpace3){
 selected = false;
 weaponSpace3Selected = false;
 

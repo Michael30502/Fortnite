@@ -12,9 +12,6 @@ playerTurn = false;
 if(theDeck.mulliganUsed == true) and(mulliganPhase) and (drawAllowed == 0){
 image_index =3
 mulliganPhase = false;
-superAction = true;
-buildAction = true;
-action=true;
 buildSpace.rested = false;
 if(theDeck.start == true)
 drawPhase = true;
@@ -52,6 +49,15 @@ actionPhase = true;
 if(drawPhase) and (drawUsed == true) and (drawAllowed == 0)and (buildingPhase == false){
 drawPhase = false;
 buildingPhase = true;
+superAction = true;
+buildAction = true;
+action=true;
+hShotUsed = false;
+mShotUsed = false;
+sShotUsed = false;
+boogieBomb = false;
+buildSpace.rested = false;
+
 image_index = 1;
 }
 

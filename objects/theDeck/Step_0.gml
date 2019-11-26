@@ -2,6 +2,16 @@
 // You can write your code in this editor
 
 //Rykker kortene så de sidder rigtigt i hånden
+if(keyboard_check_pressed(ord("K")))
+{
+	if(cardFront == cardS)
+	cardFront = fortniteCards
+	else
+	cardFront = cardS;
+handUpdated = true;	
+	
+	}
+
 if(playerHandUpdate){
 i = 0;
 while(i<52){
