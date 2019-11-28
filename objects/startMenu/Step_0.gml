@@ -247,13 +247,17 @@ if(avatarMenu ==true){
 	case 9: cpuAvatar = beckJrDance;break;
 
 	}
-			menu_control = true;
+		menu_control = true;
 		avatarPositionX = -200;
 		menu_x_target = gui_width-gui_margin;
 		menuCursorA = 10;
 		avatarMenu = false;
+	
 	}
-
+	if(menuCursorA = 0){
+		menu_control = false;
+		menuControlS = false;
+	}
 	if(keyboard_check_pressed(vk_enter)&&menuCursorA==0){
 		menu_control = true;
 		avatarPositionX = -200;
