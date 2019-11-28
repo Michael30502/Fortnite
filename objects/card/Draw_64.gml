@@ -6,14 +6,19 @@
 
 
 //if (actionPhase != true or numCardSelected != 1)
-
+if (owner == "player")
 if(id== gameMaster.cardPoint) {
 while(y>room_height-room_height/20-150)
 y-=1;
+if(selectable) and (selected == false)
+draw_sprite(epicBorderSpriteBlueExtended,0,x,y)
+if(selected)
+draw_sprite(epicBorderSpriteExtended,0,x,y)
 }
 else{
 while(y<= room_height-room_height/20)
 y+= 1
+
 }
 
 if (id == gameMaster.cardPoint) and (selected == false) and (thisCard == 1) and (selectable){
