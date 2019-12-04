@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Rester kort og unrester dem + fjerner at kort er blevet valgt når de er brugt
 // You can write your code in this editor
  
 if(buildingSpaceUsed) and((weaponSpace1)or (weaponSpace2) or(weaponSpace3))

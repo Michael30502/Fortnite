@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description sætter våben og bygninger de rigtige veje
 // You can write your code in this editor
  if(buildSpace1 and buildingSpace1Available)
  {	 

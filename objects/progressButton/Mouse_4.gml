@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description De forskellige ting som sker når musen er over progressknappen
 // You can write your code in this editor
 //if mulliganPhase
 if collision_point(mouse_x,mouse_y,progressButton,true,false){

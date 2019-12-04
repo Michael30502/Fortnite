@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Laver alle de forskellige felter man kan sætte ting på
 // You can write your code in this editor
 globalvar buildingSpace1Available
 globalvar buildingSpace2Available;

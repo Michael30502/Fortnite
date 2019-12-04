@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Gør så man kan bygge og skyde våben.
 // You can write your code in this editor
 
 
