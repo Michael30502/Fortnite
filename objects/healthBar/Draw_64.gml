@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Tegner healthbar og shealdbar
 // You can write your code in this editor
 
 if playerHealthBar{

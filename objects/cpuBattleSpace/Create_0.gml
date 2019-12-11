@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description CPU'ens sted at bygge
 // You can write your code in this editor
 globalvar buildSpaceUsed;
 

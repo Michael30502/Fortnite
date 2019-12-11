@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description spillerens healthbar er i bunden og CPU'ens i toppen
 // You can write your code in this editor
 
 playerHealthBar = false;

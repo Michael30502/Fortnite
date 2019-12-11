@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Køre igennem cpu starter phase
 // You can write your code in this editor
 
 //giver turen videre hvis det er computerens tur
