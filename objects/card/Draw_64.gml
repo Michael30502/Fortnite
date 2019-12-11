@@ -8,12 +8,23 @@
 //if (actionPhase != true or numCardSelected != 1)
 if (owner == "player")
 if(id== gameMaster.cardPoint) {
+if(mouse_y <998){
 while(y>room_height-room_height/20-150)
 y-=1;
 if(selectable) and (selected == false)
 draw_sprite(epicBorderSpriteBlueExtended,0,x,y)
 if(selected)
 draw_sprite(epicBorderSpriteExtended,0,x,y)
+
+}
+else{
+	if(selectable) and (selected == false)
+draw_sprite(epicBorderSpriteBlue,0,x,y)
+if(selected)
+draw_sprite(epicBorderSprite,0,x,y)
+	
+
+}
 }
 else{
 while(y<= room_height-room_height/20)

@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "09c5d8c9-23d3-402c-8a97-f77546d08db7",
+            "Value": {
+                "id": "bb931bff-897e-4484-b5a0-127a4637def0",
+                "resourcePath": "sprites\\Super_bord_nu_perfekt\\Super_bord_nu_perfekt.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0ab5978a-4b87-4ec7-9de2-5bba16331a7d",
             "Value": {
                 "id": "977770cd-8055-4580-b313-2b1f9d1b911c",

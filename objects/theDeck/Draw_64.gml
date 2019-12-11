@@ -6,7 +6,7 @@ draw_text(500,500,drawAllowed);
 draw_text(300,200,playerHand)
 */
 
-
+draw_text (300,200, mouse_y);
 
 
 //Fjerner Kort objekterne og laver dem igen hver gang der sker en opdatering 

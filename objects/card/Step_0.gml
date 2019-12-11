@@ -153,7 +153,7 @@ case 0:uncommon = true; rarity = "uncommon"; break;
 //Kort funktioner 
 
 
-if (drawPhase)and (owner == "player") and ((chest) or (pistol)or(assaultRifle)or(sniper)) 
+if (drawPhase)and (owner == "player")  and ((chest) or (pistol)or(assaultRifle)or(sniper)) 
 selectable = true;
 //BuildAction
 if (buildingPhase)and (owner == "player") and (buildAction) and ((stairs) or (wall) or (roof))

@@ -21,7 +21,7 @@ buildScript();
 if(weaponSpace1){ 
 if(weaponSpace1Available)
 weaponScript();
-else if (sBulletSelected){
+else if (sBulletSelected) and rested == false{
 if(buildingSpaceUsed){
 	
 	if(selected == true){
@@ -41,7 +41,7 @@ weaponSpace1Selected = true;
 if(weaponSpace2){
 if(weaponSpace2Available)
 weaponScript();
-else if (mBulletSelected){
+else if (mBulletSelected)and rested == false{
 if(buildingSpaceUsed) and (mBulletSelected){
 	if(selected == true){
 selected = false;
@@ -57,7 +57,7 @@ weaponSpace2Selected = true;
 if(weaponSpace3){
 if(weaponSpace3Available)
 weaponScript();
-else if (hBulletSelected){
+else if (hBulletSelected)and rested == false{
 if(buildingSpaceUsed){
 	if(selected == true){
 selected = false;

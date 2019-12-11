@@ -17,25 +17,19 @@
  
  
  if(weaponSpace1) and (weaponSpace1Available){
- if(rested)
- draw_sprite(sidewaysBorderBlue,0,x,y);
- else
+ if(rested== false)
  draw_sprite(borderSpriteBlue,0,x,y);
  
 }
 
 if(weaponSpace2)and (weaponSpace2Available){
- if(rested)
- draw_sprite(sidewaysBorderBlue,0,x,y);
- else
+ if(rested== false)
  draw_sprite(borderSpriteBlue,0,x,y);
  
 }
 
 if(weaponSpace3)and (weaponSpace3Available){
- if(rested)
- draw_sprite(sidewaysBorderBlue,0,x,y);
- else
+ if(rested== false)
  draw_sprite(borderSpriteBlue,0,x,y);
  
 }

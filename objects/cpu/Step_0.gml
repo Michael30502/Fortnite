@@ -10,6 +10,7 @@ cpuStart = false;
 drawPhaseStart = true;
 }
 */
+
 if(playerTurn == false ) and (startUpPhase == false){
 	playerTurn = true;
 	drawPhase = true;
