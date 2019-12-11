@@ -5,7 +5,7 @@
 
 if(playerTurn == false)and (startUpPhase = false)and (counter <= 0) and (cpuStart = true){
 cpuDrawPhase = true;
-counter = 0;
+counter = 300;
 cpuStart = false;
 drawPhaseStart = true;
 }
@@ -17,6 +17,7 @@ if(playerTurn == false ) and (startUpPhase == false){
 drawAllowed = 1;
 }
 */
+
 if(cpuDrawPhase){
 	if(drawPhaseStart == true)
 cpuCardDraw +=1
@@ -36,7 +37,7 @@ drawPhaseStart = false;
 if(useCpuAce == false and cpuDrawPhase == true and (drawPhaseStart = false) and (counter <= 0))
 {
 	cpuDrawPhase = false
-	//cpuBuildPhase = true;
+	cpuBuildPhase = true;
 	
 
 	}

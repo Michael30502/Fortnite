@@ -200,6 +200,12 @@ deleteCard();
 
 if(stairs){
 draw_text(x-50,y-250,"Stairs")
+if(owner == "cpu")
+cpuStairs = true;
+else
+cpuStairs = false;
+
+
 if(buildingPhase and selected) {
 	buildSpace.builderCard = cardValue;
 	buildSpace.builderCardType = stairs;
@@ -214,6 +220,11 @@ buildingSpace1Available = false;
 if(wall){
 draw_text(x-50,y-250,"Wall")
 
+if(owner == "cpu")
+cpuWall = true;
+else
+cpuWall = false;
+
 if(buildingPhase and selected){
 	buildSpace.builderCard = cardValue;
 	buildSpace.builderCardType = wall;
@@ -226,6 +237,12 @@ buildingSpace2Available = false;
 
 
 if(roof){
+	
+if(owner == "cpu")
+cpuRoof = true;
+else
+cpuRoof = false;
+	
 draw_text(x-50,y-250,"Roof")
 if(buildingPhase and selected){
 	buildSpace.builderCard = cardValue;

@@ -1,4 +1,4 @@
-/// @description JEG MENER DET
+/// @description JEG MENER DET IKKE
 // You can write your code in this editor
 
 if(menuCursorA == 8) 

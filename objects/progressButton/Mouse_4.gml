@@ -31,6 +31,7 @@ cpu.cpuStart =true;
 
 if(actionPhase) and (numCardSelected == 0){
 actionPhase = false;
+buildSpace.selected = false;
 if (playerHandCount > 5)
 discardPhase = true;
 else {
