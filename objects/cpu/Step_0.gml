@@ -2,21 +2,21 @@
 // You can write your code in this editor
 
 //giver turen videre hvis det er computerens tur
-/*
+
 if(playerTurn == false)and (startUpPhase = false)and (counter <= 0) and (cpuStart = true){
 cpuDrawPhase = true;
 counter = 0;
 cpuStart = false;
 drawPhaseStart = true;
 }
-*/
 
+/*
 if(playerTurn == false ) and (startUpPhase == false){
 	playerTurn = true;
 	drawPhase = true;
 drawAllowed = 1;
 }
-
+*/
 if(cpuDrawPhase){
 	if(drawPhaseStart == true)
 cpuCardDraw +=1
