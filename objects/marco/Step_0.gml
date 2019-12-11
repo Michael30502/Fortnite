@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description JEG MENER DET
 // You can write your code in this editor
 
 if(menuCursorA == 8) 
