@@ -15,7 +15,6 @@ buildWall = false;
 cpuHandCount = 0;
 counter = 120;
 
-
 drawPhaseStart = true;
 cpuCardDraw = 0;
 cpuDrawPhase = false;

@@ -6,7 +6,7 @@ globalvar avatar;
 globalvar cpuAvatar;
 
 cpuAvatar = thomasDance;
-cardFront = cardS;
+cardFront = fortniteCards;
 cardBack = cardBackS;
 avatar = andersDance;
 // Her setter vi størrelsen på hvores GUI og vores menu
