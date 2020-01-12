@@ -5,7 +5,7 @@
 
 if(playerTurn == false)and (startUpPhase = false)and (counter <= 0) and (cpuStart = true){
 cpuDrawPhase = true;
-counter = 300;
+counter = 50;
 cpuStart = false;
 drawPhaseStart = true;
 }
@@ -22,15 +22,15 @@ if(cpuDrawPhase){
 	if(drawPhaseStart == true)
 cpuCardDraw +=1
 
+
 useCpuAce = true;
 while (cpuCardDraw != 0){
 cpuDrawCard();
 cpuCardDraw-=1;
-
 }
 
-
 drawPhaseStart = false;
+useCpuAce = false;
 
 }
 
@@ -44,12 +44,17 @@ if(useCpuAce == false and cpuDrawPhase == true and (drawPhaseStart = false) and 
 
 if(cpuBuildPhase){
 	
-if (cpuRoof)
-buildRoof = true;
-else if(cpuStairs)
-buildStairs = true;
-else if(cpuWall)
-buildWall = true;
+	checkBuildRoof = false;
+	checkBuildStairs = false;
+	checkBuildWall = false;
+	
+checkBuildRoof = true;
+if(buildRoof ==false)
+checkBuildWall = true;
+if(buildWall == false)
+checkBuildStairs = false;
+
+//cpuBuildPhase = false;
 
 }
 

@@ -22,6 +22,9 @@ hBullet = false;
 pistol = false;
 assaultRifle = false;
 sniper= false;
+cpuRoof = false
+cpuStairs = false;
+cpuWall = false;
 
 sBulletSelected = false;
 mBulletSelected = false;

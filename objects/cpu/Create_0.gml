@@ -7,13 +7,19 @@ globalvar buildRoof;
 globalvar buildWall;
 globalvar buildStairs;
 globalvar useCpuAce;
-
+globalvar cpuBuildAction;
+globalvar cpuAction;
 buildStairs = false;
 buildRoof = false;
 buildWall = false;
+cpuBuildAction = true;
 
 cpuHandCount = 0;
 counter = 120;
+
+checkBuildRoof = false;
+checkBuildWall = false;
+checkBuildStairs = false;
 
 drawPhaseStart = true;
 cpuCardDraw = 0;

@@ -200,11 +200,24 @@ deleteCard();
 
 if(stairs){
 draw_text(x-50,y-250,"Stairs")
-if(owner == "cpu")
-cpuStairs = true;
-else
-cpuStairs = false;
 
+{	if(cpu.checkBuildStairs)
+	if(cpu.cpuBuildPhase)
+if(owner == "cpu"){
+	if(cpuBuildAction== true){
+buildStairs = true;
+	cpuBattleSpace.builderCard = cardValue;
+	cpuBattleSpace.builderCardType = stairs;
+	cpuBattleSpace.builderRarity = rarity;
+	deleteCpuCard();
+	}
+}
+else
+buildStairs = false;
+
+
+
+}
 
 if(buildingPhase and selected) {
 	buildSpace.builderCard = cardValue;
@@ -219,11 +232,22 @@ buildingSpace1Available = false;
 
 if(wall){
 draw_text(x-50,y-250,"Wall")
-
+	if(cpu.checkBuildWall)
+	if(cpu.cpuBuildPhase)
 if(owner == "cpu")
-cpuWall = true;
+{
+		if(cpuBuildAction== true){
+	buildWall = true;
+	cpuBattleSpace.builderCard = cardValue;
+	cpuBattleSpace.builderCardType = wall;
+	cpuBattleSpace.builderRarity = rarity;
+	deleteCpuCard();
+	}}
 else
-cpuWall = false;
+buildWall = false;
+
+
+
 
 if(buildingPhase and selected){
 	buildSpace.builderCard = cardValue;
@@ -238,10 +262,21 @@ buildingSpace2Available = false;
 
 if(roof){
 	
+	if(cpu.checkBuildRoof)
+	if(cpu.cpuBuildPhase)
 if(owner == "cpu")
-cpuRoof = true;
+{
+		if(cpuBuildAction== true){
+	buildRoof = true;
+	cpuBattleSpace.builderCard = cardValue;
+	cpuBattleSpace.builderCardType = roof;
+	cpuBattleSpace.builderRarity = rarity;
+	deleteCpuCard();
+}}
 else
-cpuRoof = false;
+buildRoof = false;
+
+	
 	
 draw_text(x-50,y-250,"Roof")
 if(buildingPhase and selected){
