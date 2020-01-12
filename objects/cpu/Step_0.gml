@@ -8,6 +8,7 @@ cpuDrawPhase = true;
 counter = 50;
 cpuStart = false;
 drawPhaseStart = true;
+useCpuAce = true;
 }
 
 /*
@@ -23,14 +24,14 @@ if(cpuDrawPhase){
 cpuCardDraw +=1
 
 
-useCpuAce = true;
+
 while (cpuCardDraw != 0){
 cpuDrawCard();
 cpuCardDraw-=1;
 }
 
+
 drawPhaseStart = false;
-useCpuAce = false;
 
 }
 

@@ -6,7 +6,7 @@ if (buildStairs ==true)
 {
 cpuBuild();
 buildStairs = false;
-cpuBuildPhase = false;
+
 
 }
 }
@@ -16,7 +16,7 @@ if (buildWall ==true)
 {
 cpuBuild();
 buildWall= false;
-cpu.cpuBuildPhase = false;
+
 }
 }
 
@@ -25,6 +25,6 @@ if (buildRoof ==true)
 {
 cpuBuild();
 buildRoof= false;
-cpu.cpuBuildPhase = false;
+
 }
 }
