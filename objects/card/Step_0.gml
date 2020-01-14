@@ -128,7 +128,7 @@ deleteCard();
 switch round((cardValue)div 4) 
 {
 case 0 : chest = true; break;
-case 1: trap =true;break;
+case 1: trap = true;break;
 case 2: grenade = true;break;
 case 3: healing = true;break;
 case 4:  stairs= true;break;
@@ -232,20 +232,12 @@ if(grenade)
 cpuGrenade = true;
 if(healing)
 cpuHealing = true;
-if(wall)
+if(wall){
 cpuWall = true;
-if(roof){
-cpuRoof = true;
-if (buildRoof ==true){
-	if(rarity == uncommon)
-builderRarity = 1;
-if(rarity = rare)
-builderRarity = 2;
-if(rarity = epic)
-builderRarity =3;
-}
 
 }
+if(roof)
+cpuRoof = true;
 if(stairs)
 cpuStairs = true;
 if(sBullet)

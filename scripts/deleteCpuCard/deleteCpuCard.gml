@@ -3,9 +3,9 @@ while (i<52){
 if cpuHand[i] == cardValue{
 cpuHand[i] = -1;
 i2 = 0;
-if (buildingPhase == true) or(weaponActivate == true)
+if (cpu.cpuBuildPhase == true) or(weaponActivate == true)
 {
-buildActivate = false;
+cpu.cpuBuildPhase = false;
 weaponActivate = false;
 }
 else

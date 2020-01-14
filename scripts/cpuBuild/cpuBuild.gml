@@ -13,8 +13,8 @@ theDeck.discardPile[i2] =cardValue;
 	}}}
 	
  sprite_index = cardFront;
- cardValue = builderCard;
- rarity = builderRarity;
+ cardValue = cpuBuilderCard;
+ rarity = cpuBuilderRarity;
  image_index =cardValue;
 
 cpuBuildAction = false;
