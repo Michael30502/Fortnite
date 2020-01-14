@@ -68,7 +68,7 @@ xArray[0] = -200; yArray[0] = 124;
 xArray[1] = -200; yArray[1] = 372;
 xArray[2] = -200; yArray[2] = 124;
 xArray[3] = -200; yArray[3] = 372;
-xArray[4] = -200; yArray[4] = 124;
+xArray[4] = -200; yArray[4] = 372;
 kortPositionX = 200;
 kortPositionX2 = 235;
 kortPositionX3 = 400;
@@ -101,7 +101,7 @@ menuC[21] = "Kort designere";
 menuC[20] = "Batman"
 menuC[19] = "Ukendt person"
 menuC[18] = "CEO/KOMMUNIKATION BOSS"
-menuC[17] = "Christoffer Beck Ordrup"
+menuC[17] = "Christoffer 'Beckdrup' Beck"
 menuC[16] = "LEGENDE KOMMENTATOR"
 menuC[15] = "Marco #666"
 menuC[14] = "BYGGEMAND BOB"
