@@ -152,7 +152,7 @@ if(kortMenu ==true){
 		spriteArray[3] = fortniteBacks1Chosen
 		spriteArray[4] = fortniteBack2
 	}
-	if(kortMenuCursor == 0&&kortMenuCursor2==2){
+	if(kortMenuCursor == 1&&kortMenuCursor2==2){
 		spriteArray[0] = cardS;
 		spriteArray[1] = cardBackS;
 		spriteArray[2] = fortniteCards
