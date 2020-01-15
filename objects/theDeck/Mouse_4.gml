@@ -1,6 +1,7 @@
 /// @description Ændrer noget hvergang decket trykkes på
 // You can write your code in this editor
 //Checks if the player is allowed to draw
+if(helpMenu == false){
 if(drawAllowed>0){
 
 //checks if you are pointing on the deck
@@ -44,4 +45,4 @@ i3 +=1;
 }}
 
 //Mulliganer valgte kort og gør mulligan umuligt
-
+}

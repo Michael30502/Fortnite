@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "062f5204-8cf6-47ee-afb9-81002390e332",
+            "Value": {
+                "id": "96252b4e-4d5b-4228-a69e-c1f6b31ef3a9",
+                "resourcePath": "objects\\helpMenuO\\helpMenuO.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0638376e-ebd2-44f1-b30d-095946f6edc9",
             "Value": {
                 "id": "41db4ec5-42b9-4662-908e-ab00e42a67ca",
@@ -212,6 +220,14 @@
                 "id": "8824bf73-9e4f-4db0-ba6d-dd86dc61c3de",
                 "resourcePath": "scripts\\weaponScript\\weaponScript.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "2ef51588-6bb4-4631-9fee-408a46c54a41",
+            "Value": {
+                "id": "e5cf758a-34d9-4415-a1cc-d9f206310564",
+                "resourcePath": "sprites\\helpMenuS\\helpMenuS.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

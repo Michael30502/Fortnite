@@ -3,7 +3,7 @@
 
 
 //BuildAction
-
+if(helpMenu = false){
 if(buildSpace1 and buildingSpace1Available and(buildAction))
 buildScript();
  
@@ -68,3 +68,5 @@ else {
 selected = true;
 weaponSpace3Selected = true;
 }}}}
+
+}
