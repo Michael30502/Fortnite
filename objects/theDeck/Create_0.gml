@@ -40,6 +40,8 @@ globalvar smokeBomb;
 globalvar mShotUsed;
 globalvar sShotUsed;
 globalvar hShotUsed;
+globalvar Cheat;
+Cheat = false;
 
 
 hShotUsed = true;

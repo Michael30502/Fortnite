@@ -55,7 +55,7 @@ image_index = theDeck.playerHand[thisCard-1];
 
 if (owner =="cpu"){
 cardValue = cpuHand[thisCard-1];
-sprite_index = cardFront;
-image_index = cpuHand[thisCard-1];
+sprite_index = cardBack;
+//image_index = cpuHand[thisCard-1];
 
 }

@@ -5,7 +5,7 @@ if(draw==true)
 draw_text(500,500,drawAllowed);
 draw_text(300,200,playerHand)
 */
-
+if(Cheat)
 draw_text (300,200, mouse_y);
 
 

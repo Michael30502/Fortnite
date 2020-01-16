@@ -60,7 +60,7 @@ if selectable{
 draw_text(progressButton.x-280,progressButton.y,"Cards selected:"+string(numCardSelected));
 }
 
-
+if(Cheat)
 if(chest)
 draw_text(x-50,y-250,"ACE")
 
@@ -144,6 +144,7 @@ deleteCard();
 
 
 if(healing){
+	if(Cheat)
 draw_text(x-50,y-250,"Healing")
 if(selected){
 
@@ -199,6 +200,7 @@ deleteCard();
 
 
 if(stairs){
+	if(Cheat)
 draw_text(x-50,y-250,"Stairs")
 
 {	if(cpu.checkBuildStairs)
@@ -231,6 +233,7 @@ buildingSpace1Available = false;
 
 
 if(wall){
+	if(Cheat)
 draw_text(x-50,y-250,"Wall")
 	if(cpu.checkBuildWall)
 	if(cpu.cpuBuildPhase)
@@ -277,7 +280,7 @@ else
 buildRoof = false;
 
 	
-	
+	if(Cheat)
 draw_text(x-50,y-250,"Roof")
 if(buildingPhase and selected){
 	buildSpace.builderCard = cardValue;
@@ -292,6 +295,7 @@ buildingSpace3Available = false;
 
 
 if(sBullet){
+	if(Cheat)
 draw_text(x-50,y-250,"Small bullet")
 if (selected){
 sBulletSelected = true;
@@ -312,6 +316,7 @@ sBulletSelected = false;
 
 
 if(mBullet){
+	if(Cheat)
 draw_text(x-50,y-250,"Medium bullet")
 if (selected){
 mBulletSelected = true;
@@ -330,6 +335,7 @@ mBulletSelected = false;
 
 
 if(hBullet){
+	if(Cheat)
 draw_text(x-50,y-250,"Heavy bullet")
 if (selected){
 
@@ -349,6 +355,7 @@ deleteCard();
 hBulletSelected = false;
 
 if(pistol){
+	if(Cheat)
 draw_text(x-50,y-250,"Pistol")
 
 if(actionPhase and selected)
@@ -363,6 +370,7 @@ weaponSpace1Available = false;
 
 }
 if(assaultRifle){
+	if(Cheat)
 draw_text(x-50,y-250,"Assault Rifle")
 
 if(actionPhase and selected)
@@ -378,6 +386,7 @@ weaponSpace2Available = false;
 }
 
 if(sniper){
+	if(Cheat)
 draw_text(x-50,y-250,"Sniper")
 
 if(actionPhase and selected)
@@ -393,7 +402,7 @@ weaponSpace3Available = false;
 
 }
 
-
+if(Cheat){
 if(uncommon)
 draw_text(x-50,y-280,"Uncommon")
 
@@ -405,3 +414,4 @@ draw_text(x-50,y-280,"Epic")
 
 if(legendary)
 draw_text(x-50,y-280,"Legendary")
+}

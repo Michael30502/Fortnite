@@ -11,13 +11,9 @@ drawPhaseStart = true;
 useCpuAce = true;
 }
 
-/*
-if(playerTurn == false ) and (startUpPhase == false){
-	playerTurn = true;
-	drawPhase = true;
-drawAllowed = 1;
-}
-*/
+
+
+
 
 if(cpuDrawPhase){
 	if(drawPhaseStart == true)
@@ -34,6 +30,18 @@ cpuCardDraw-=1;
 drawPhaseStart = false;
 
 }
+if(playerTurn == false ) and (startUpPhase == false){
+	playerTurn = true;
+	drawPhase = true;
+drawAllowed = 1;
+cpuDrawPhase = false;
+
+cpuStart = true;
+drawPhaseStart = false;
+useCpuAce = false;
+cpuDrawPhase = false;
+}
+
 
 if(useCpuAce == false and cpuDrawPhase == true and (drawPhaseStart = false) and (counter <= 0))
 {
