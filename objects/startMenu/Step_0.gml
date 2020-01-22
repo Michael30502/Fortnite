@@ -105,6 +105,7 @@ if(kortMenu ==true){
 	
 	if(mouse_x>521&&mouse_x<681&&mouse_y>249&&mouse_y<483){kortMenuCursor =4;}
 		if(mouse_x>681||mouse_x<119||mouse_y>483||mouse_y<0){kortMenuCursor =5;}
+		if(kortMenuCursor<5 &&kortMenuCursor>-1){menuControlS = false;}
 	if(kortMenuCursor == 0){
 		spriteArray[0] = NormalCardFrontChosen;
 		spriteArray[1] = cardBackS;
