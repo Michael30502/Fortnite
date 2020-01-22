@@ -2,9 +2,10 @@
 // You can write your code in this editor
 /// @description Insert description here
 draw_set_font(fMenu);
-draw_set_halign(fa_right);
+draw_set_halign(fa_left);
 draw_set_valign(fa_bottom);
-//draw_text(300,300,menuCursorA);
+draw_text(900,800,menu_control);
+draw_text(950,800,menuControlS);
 for (var i = 0; i < menu_items; i++)
 
 {
@@ -27,7 +28,7 @@ for (var i = 0; i < menu_items; i++)
 
 //skin menu
 draw_set_font(fMenu);
-draw_set_halign(fa_right);
+draw_set_halign(fa_left);
 draw_set_valign(fa_bottom);
 
 for (var i = 0; i < menu_itemsS; i++)

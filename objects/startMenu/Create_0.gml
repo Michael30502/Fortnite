@@ -12,11 +12,11 @@ avatar = andersDance;
 // Her setter vi størrelsen på hvores GUI og vores menu
 gui_width = display_get_gui_width();
 gui_height = display_get_gui_height();
-gui_margin = 32;
+gui_margin = 550;
 window_set_fullscreen(true);
 menu_x = gui_width+200;
 menu_y = gui_height - gui_margin;
-menu_x_target = gui_width-gui_margin;
+menu_x_target = gui_width-360-gui_margin;
 // Her setter vi hvor hurtigt vores menu køre
 menu_speed = 25; //lower is faster
 
@@ -35,12 +35,11 @@ menu_cursor = 2;
 //Her har vi det samme som ovenover men når man er gået ind på skins menuen
 gui_widthS = display_get_gui_width();
 gui_heightS = display_get_gui_height();
-gui_marginS = 32;
-
-menu_xS = gui_widthS+250;
-menu_yS = gui_heightS - gui_marginS;
-menu_x_targetS = gui_widthS-gui_marginS;
-menu_speedS = 25; //lower is faster
+gui_marginS = 550;
+menu_xS = gui_widthS+300;
+menu_yS = gui_heightS- gui_marginS;
+menu_x_targetS = 370-gui_widthS-gui_marginS;
+menu_speedS = 5; //lower is faster
 
 // her er De mulligheder man har at klikke på
 menu_itemheightS = font_get_size(fMenu);
@@ -97,9 +96,9 @@ menuC[25] = "HOVED PROGRAMMØR";
 menuC[24] = "Vsovs Mikkel";
 menuC[23] = "PROGRAMMØR/PERSONAMASTER";
 menuC[22] = "Gokkebro";
-menuC[21] = "Kort designere";
+menuC[21] = "KORT DESIGNERE";
 menuC[20] = "Batman"
-menuC[19] = "Ukendt person"
+menuC[19] = "Laura"
 menuC[18] = "CEO/KOMMUNIKATION BOSS"
 menuC[17] = "Christoffer 'Beckdrup' Beck"
 menuC[16] = "LEGENDE KOMMENTATOR"
