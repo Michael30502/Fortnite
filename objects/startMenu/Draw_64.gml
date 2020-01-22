@@ -4,8 +4,7 @@
 draw_set_font(fMenu);
 draw_set_halign(fa_left);
 draw_set_valign(fa_bottom);
-draw_text(900,800,menu_control);
-draw_text(950,800,menuControlS);
+
 for (var i = 0; i < menu_items; i++)
 
 {
